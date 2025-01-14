@@ -18,15 +18,16 @@ private:
 public:
     vector<int> findThePrefixCommonArray(vector<int>& A, vector<int>& B) {
         vector<int>cnt(51,0);
-        vector<int>ans;
+        
         int count=0;
         int n=A.size();
+        vector<int>ans(n);
         for(int i=0;i<n;i++){
            cnt[A[i]]++;
            if(cnt[A[i]]==2) count++;
            cnt[B[i]]++;
            if(cnt[B[i]]==2) count++;
-           ans.push_back(count);
+           ans[i]=(count);
         }
         return ans;
     }
