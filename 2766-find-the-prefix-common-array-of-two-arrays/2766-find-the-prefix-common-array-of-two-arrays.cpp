@@ -17,22 +17,17 @@ private:
 
 public:
     vector<int> findThePrefixCommonArray(vector<int>& A, vector<int>& B) {
-        int n = A.size();
-        vector<int> ans;
-        vector<int> bit(n + 1, 0);
-        vector<bool> seen(n + 1, false); 
-        for (int i = 0; i < n; i++) {
-            if (seen[A[i]]) {
-                update(bit, A[i], n);  
-            }
-            seen[A[i]] = true;
-            if (seen[B[i]]) {
-                update(bit, B[i], n);  
-            }
-            seen[B[i]] = true;
-            ans.push_back(query(bit, n));
+        vector<int>cnt(51,0);
+        vector<int>ans;
+        int count=0;
+        int n=A.size();
+        for(int i=0;i<n;i++){
+           cnt[A[i]]++;
+           if(cnt[A[i]]==2) count++;
+           cnt[B[i]]++;
+           if(cnt[B[i]]==2) count++;
+           ans.push_back(count);
         }
-        
         return ans;
     }
 };
