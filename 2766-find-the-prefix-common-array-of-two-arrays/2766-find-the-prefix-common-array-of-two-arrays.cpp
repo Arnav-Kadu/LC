@@ -1,8 +1,8 @@
 class Solution {
 private:
-    void update(vector<int>& bit, int idx, int val, int n) {
+    void update(vector<int>& bit, int idx, int n) {
         while (idx <= n) {
-            bit[idx] += val;
+            bit[idx] += 1;
             idx += (idx & -idx);
         }
     }
@@ -23,11 +23,11 @@ public:
         vector<bool> seen(n + 1, false); 
         for (int i = 0; i < n; i++) {
             if (seen[A[i]]) {
-                update(bit, A[i], 1, n);  
+                update(bit, A[i], n);  
             }
             seen[A[i]] = true;
             if (seen[B[i]]) {
-                update(bit, B[i], 1, n);  
+                update(bit, B[i], n);  
             }
             seen[B[i]] = true;
             ans.push_back(query(bit, n));
