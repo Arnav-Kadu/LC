@@ -23,9 +23,9 @@ public:
         int ans = 0;
         while (!pq.empty()) {
             auto top = pq.top();
-            int h = pq.top().first;
-            int x = pq.top().second.first;
-            int y = pq.top().second.second;
+            int h = top.first;
+            int x = top.second.first;
+            int y = top.second.second;
             pq.pop();
 
             int dr[] = {-1, 0, 1, 0};
