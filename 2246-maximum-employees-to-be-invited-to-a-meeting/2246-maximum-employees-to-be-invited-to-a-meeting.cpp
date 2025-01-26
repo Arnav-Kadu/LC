@@ -1,49 +1,49 @@
 class Solution {
 public:
     int maximumInvitations(vector<int>& favorite) {
-        int n = favorite.size();
-        vector<int> inDegree(n, 0);
-        for (int person = 0; person < n; ++person) {
-            inDegree[favorite[person]]++;
+        return max(maxCycle(favorite), topologicalSort(favorite));
+    }
+
+    int maxCycle(vector<int>& fa) {
+        int n = fa.size();
+        vector<bool> vis(n);
+        int ans = 0;
+        for (int i = 0; i < n; ++i) {
+            if (vis[i]) continue;
+            vector<int> cycle;
+            int j = i;
+            while (!vis[j]) {
+                cycle.push_back(j);
+                vis[j] = true;
+                j = fa[j];
+            }
+            for (int k = 0; k < cycle.size(); ++k) {
+                if (cycle[k] == j) {
+                    ans = max(ans, (int) cycle.size() - k);
+                    break;
+                }
+            }
         }
+        return ans;
+    }
+
+    int topologicalSort(vector<int>& fa) {
+        int n = fa.size();
+        vector<int> indeg(n);
+        vector<int> dist(n, 1);
+        for (int v : fa) ++indeg[v];
         queue<int> q;
-        for (int person = 0; person < n; ++person) {
-            if (inDegree[person] == 0) {
-                q.push(person);
-            }
-        }
-
-        vector<int> depth(n, 1); 
+        for (int i = 0; i < n; ++i)
+            if (indeg[i] == 0) q.push(i);
         while (!q.empty()) {
-            int currentNode = q.front();
+            int i = q.front();
             q.pop();
-            int nextNode = favorite[currentNode];
-            depth[nextNode] = max(depth[nextNode], depth[currentNode] + 1);
-            if (--inDegree[nextNode] == 0) {
-                q.push(nextNode);
-            }
+            dist[fa[i]] = max(dist[fa[i]], dist[i] + 1);
+            if (--indeg[fa[i]] == 0) q.push(fa[i]);
         }
-
-        int longestCycle = 0;
-        int twoCycleInvitations = 0;
-        for (int person = 0; person < n; ++person) {
-            if (inDegree[person] == 0) continue; 
-
-            int cycleLength = 0;
-            int current = person;
-            while (inDegree[current] != 0) {
-                inDegree[current] = 0;
-                cycleLength++;
-                current = favorite[current];
-            }
-
-            if (cycleLength == 2) {
-                twoCycleInvitations += depth[person] + depth[favorite[person]];
-            } else {
-                longestCycle = max(longestCycle, cycleLength);
-            }
-        }
-
-        return max(longestCycle, twoCycleInvitations);
+        int ans = 0;
+        for (int i = 0; i < n; ++i)
+            if (i == fa[fa[i]]) ans += dist[i];
+        return ans;
     }
 };
