@@ -15,31 +15,60 @@ public:
         vector<int> adj[n];
         vector<vector<int>> vis_mat(n, vector<int>(n, 0));
         // vector<int>vis(n,0);
+        vector<int> ander(n, 0);
         for (auto pre : prerequisites) {
             adj[pre[0]].push_back(pre[1]);
+            ander[pre[1]]++;
         }
         // for(int i=0;i<n;i++){
         //     dfs(i,vis_mat,adj);
 
         // }
         // dfs wont work i am so trash
+        // for (int i = 0; i < n; i++) {
+        //     queue<int> q;
+        //     vector<bool> vis(n, false);
+        //     q.push(i);
+        //     vis[i] = 1;
+        //     while (!q.empty()) {
+        //         auto top = q.front();
+        //         q.pop();
+        //         for (auto next : adj[top]) {
+        //             if (!vis[next]) {
+        //                 vis_mat[i][next] = 1;
+        //                 q.push(next);
+        //                 vis[next] = 1;
+        //             }
+        //         }
+        //     }
+        // }
+        // fuck bfs too use topo sort
+        queue<int> q;
+        vector<int> vis(n, 0); // Track visited nodes
         for (int i = 0; i < n; i++) {
-            queue<int> q;
-            vector<bool> vis(n, false);
-            q.push(i);
-            vis[i] = 1;
-            while (!q.empty()) {
-                auto top = q.front();
-                q.pop();
-                for (auto next : adj[top]) {
-                    if (!vis[next]) {
-                        vis_mat[i][next] = 1;
-                        q.push(next);
-                        vis[next] = 1;
+            if (ander[i] == 0) {
+                q.push(i);
+            }
+        }
+        while (!q.empty()) {
+            auto top = q.front();
+            q.pop();
+            for (auto next : adj[top]) {
+                if (!vis_mat[top][next]) {
+                    vis_mat[top][next] = 1;
+                    for (int i = 0; i < n; i++) {
+                        if (vis_mat[i][top]) {
+                            vis_mat[i][next] = 1;
+                        }
                     }
+                }
+                ander[next]--;
+                if (ander[next] == 0) {
+                    q.push(next);
                 }
             }
         }
+
         vector<bool> ans;
         for (auto query : queries) {
             ans.push_back(vis_mat[query[0]][query[1]]);
