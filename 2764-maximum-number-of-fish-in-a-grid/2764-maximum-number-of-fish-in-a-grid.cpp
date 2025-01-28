@@ -1,16 +1,16 @@
 class Solution {
 private:
     int dfs(int row, int col, vector<vector<int>>& grid) {
-        if (row < 0 || col < 0 || row >= grid.size() || col >= grid[0].size() || grid[row][col] == 0) {
+        if (row < 0 || col < 0 || row >= grid.size() || col >= grid[0].size() ||
+            grid[row][col] == 0) {
             return 0;
         }
         int sum = grid[row][col];
-        grid[row][col] = 0; 
-        vector<int> delrow = {0, -1, 0, 1};
-        vector<int> delcol = {-1, 0, 1, 0};
-        for (int i = 0; i < 4; i++) {
-            sum += dfs(row + delrow[i], col + delcol[i], grid);
-        }
+        grid[row][col] = 0;
+        sum += dfs(row + 1, col, grid);
+        sum += dfs(row - 1, col, grid);
+        sum += dfs(row, col + 1, grid);
+        sum += dfs(row, col - 1, grid);
         return sum;
     }
 
