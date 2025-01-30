@@ -1,3 +1,8 @@
+#include <vector>
+#include <queue>
+#include <algorithm>
+using namespace std;
+
 class Solution {
 public:
     int magnificentSets(int n, vector<vector<int>>& edges) {
@@ -37,32 +42,31 @@ public:
                 if (!isBipartite) {
                     return -1;
                 }
-
-                auto bfs = [&](int start) {
-                    queue<int> q;
-                    vector<int> dist(n + 1, -1);
-                    q.push(start);
-                    dist[start] = 0;
-                    int farthest = start;
-
+                
+                int maxDepth = 0;
+                for (int start : component) {
+                    vector<int> m(n + 1, -1);
+                    queue<pair<int, int>> q; 
+                    q.push({0, start});
                     while (!q.empty()) {
-                        int node = q.front();
+                        auto top = q.front();
+                        int value = top.first;
+                        int number = top.second;
                         q.pop();
+                        if (m[number] != -1)
+                            continue;
+                        m[number] = value;
 
-                        for (auto next : adj[node]) {
-                            if (dist[next] == -1) {
-                                dist[next] = dist[node] + 1;
-                                q.push(next);
-                                farthest = next;
+                        for (auto next : adj[number]) {
+                            if (m[next] == -1) {
+                                q.push({value + 1, next});
                             }
                         }
                     }
-                    return make_pair(farthest, dist[farthest]);
-                };
-
-                int firstEnd = bfs(component[0]).first;
-                int maxDist = bfs(firstEnd).second;
-                ans += (maxDist + 1);
+                    maxDepth = max(maxDepth, *max_element(m.begin(), m.end()));
+                }
+               
+                ans += (maxDepth + 1);
             }
         }
 
