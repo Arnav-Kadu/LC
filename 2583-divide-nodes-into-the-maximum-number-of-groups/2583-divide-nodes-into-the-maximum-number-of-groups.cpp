@@ -1,8 +1,3 @@
-#include <vector>
-#include <queue>
-#include <algorithm>
-using namespace std;
-
 class Solution {
 public:
     int magnificentSets(int n, vector<vector<int>>& edges) {
@@ -56,14 +51,14 @@ public:
                         if (m[number] != -1)
                             continue;
                         m[number] = value;
-
+                        maxDepth=max(maxDepth,value);
                         for (auto next : adj[number]) {
                             if (m[next] == -1) {
                                 q.push({value + 1, next});
                             }
                         }
                     }
-                    maxDepth = max(maxDepth, *max_element(m.begin(), m.end()));
+                    
                 }
                
                 ans += (maxDepth + 1);
