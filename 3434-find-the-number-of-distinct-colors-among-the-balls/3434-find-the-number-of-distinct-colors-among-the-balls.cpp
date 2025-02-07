@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> queryResults(int limit, vector<vector<int>>& queries) {
-        map<int, int> cnt;
+        unordered_map<int, int> cnt;
         unordered_map<int, int> v;
         int distinct_colors = 0;
         vector<int> ans;
