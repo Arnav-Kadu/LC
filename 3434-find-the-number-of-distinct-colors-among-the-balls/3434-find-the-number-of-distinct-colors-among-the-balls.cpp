@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<int> queryResults(int limit, vector<vector<int>>& queries) {
         set<int> s;
-        map<int, int> cnt;
+        unordered_map<int, int> cnt;
         unordered_map<int, int> v;
         vector<int> ans;
 
