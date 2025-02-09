@@ -11,16 +11,16 @@ public:
         // diff array bana ke solve kr lo 
         
         int n = nums.size();
-        vector<int> diff(n);
+        //vector<int> diff(n);
         for (int i = 0; i < n; i++) {
-            diff[i] = i - nums[i];
+            nums[i] = i - nums[i];
         }
         
-        sort(diff.begin(), diff.end());
+        sort(nums.begin(), nums.end());
         
         long long good = 0, count = 1;
         for (int i = 1; i < n; i++) {
-            if (diff[i] == diff[i - 1]) {
+            if (nums[i] == nums[i - 1]) {
                 count++;
             } else {
                 good += (count * (count - 1)) / 2;
