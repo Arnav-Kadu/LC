@@ -14,7 +14,7 @@ public:
             mih.pop();
             long long ma = mih.top();
             mih.pop();
-            long long num = min(mi, ma) * 2 + max(mi, ma);
+            long long num = mi * 2LL + ma;
             if (num < k) {
                 mih.push(num);
             }
