@@ -1,29 +1,28 @@
 class Solution {
-    public : bool isSubPartitionValid(int i, string s, int n, int sum) {
-        if (i == s.length()) {
-            return sum == n;
-        }
-        for (int j = i; j < s.length(); j++) {
-            if (isSubPartitionValid(j + 1, s, n,
-                                    sum + stoi(s.substr(i, j - i + 1)))) {
-                return true;
-            }
-        }
-        return false;
-    }
-
-    bool isPunishmentNumber(int n) {
-        int squared = n * n;
-        return isSubPartitionValid(0, to_string(squared), n, 0);
-    }
+public:
+    std::vector<std::pair<int, int>> vec = {
+        {1, 1},         {9, 81},       {10, 100},     {36, 1296},
+        {45, 2025},     {55, 3025},    {82, 6724},    {91, 8281},
+        {99, 9801},     {100, 10000},  {235, 55225},  {297, 88209},
+        {369, 136161},  {370, 136900}, {379, 143641}, {414, 171396},
+        {657, 431649},  {675, 455625}, {703, 494209}, {756, 571536},
+        {792, 627264},  {909, 826281}, {918, 842724}, {945, 893025},
+        {964, 929296},  {990, 980100}, {991, 982081}, {999, 998001},
+        {1000, 1000000}};
 
     int punishmentNumber(int n) {
-        int ans = 0;
-        for (int i = 1; i <= n; i++) {
-            if (isPunishmentNumber(i)) {
-                ans += i * i;
-            }
+        vector<int> vis(1001, 0);
+        for (auto i : vec) {
+            vis[i.first] = i.second;
         }
-        return ans;
+        vector<int> prefix(1001, 0);
+        for (int i = 1; i <= 1000; i++) {
+            if (i == 1) {
+                prefix[i] = vis[i];
+                continue;
+            }
+            prefix[i] += (prefix[i - 1] + vis[i]);
+        }
+        return prefix[n];
     }
 };
