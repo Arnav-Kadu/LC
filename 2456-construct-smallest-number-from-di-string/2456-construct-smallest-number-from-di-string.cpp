@@ -1,16 +1,17 @@
 class Solution {
 public:
     string smallestNumber(string pattern) {
-        stack<int> st;
         string ans = "";
+        vector<int> temp;
         int num = 1;
         for (int i = 0; i <= pattern.size(); i++) {
-            st.push(num++);
+            temp.push_back(num++);
             if (i == pattern.size() || pattern[i] == 'I') {
-                while (!st.empty()) {
-                    ans += to_string(st.top());
-                    st.pop();
-                }
+                if (i > 0 && pattern[i - 1] == 'D')
+                    reverse(temp.begin(), temp.end());
+                for (int x : temp)
+                    ans += to_string(x);
+                temp.clear();
             }
         }
         return ans;
