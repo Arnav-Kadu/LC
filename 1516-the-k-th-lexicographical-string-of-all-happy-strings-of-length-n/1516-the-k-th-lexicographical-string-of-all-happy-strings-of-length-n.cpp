@@ -27,15 +27,9 @@ public:
         int total = 3 * (1 << (n - 1));
         if (k > total)
             return "";
-        string s(n, ' ');
-        s[0] = 'a';
-        for (int i = 1; i < n; i++) {
-            for (char c : {'a', 'b', 'c'}) {
-                if (c != s[i - 1]) {
-                    s[i] = c;
-                    break;
-                }
-            }
+        string s="";
+        for(int i=0;i<n;i++){
+            s+=(i%2==0?'a':'b');
         }
         k--;
         while (k--) {
