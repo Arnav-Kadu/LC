@@ -11,39 +11,36 @@
  * };
  */
 class FindElements {
-    vector<int> v;
+    unordered_set<int> s;
+
 public:
-    FindElements(TreeNode* root) : v(10000001, -1) {
+    FindElements(TreeNode* root) {
         if (root) {
             queue<TreeNode*> q;
             root->val = 0;
             q.push(root);
-            v[root->val]=1;
+            s.insert(root->val);
+
             while (!q.empty()) {
-                int size = q.size();
-                while (size--) {
-                    auto top = q.front();
-                    q.pop();
-                    if (top->left) {
-                        top->left->val=(top->val)*2+1;
-                        v[top->left->val]=1;
-                        q.push(top->left);
-                    }
-                    if (top->right) {
-                        top->right->val=(top->val)*2+2;
-                        v[top->right->val]=1;
-                        q.push(top->right);
-                    }
+                TreeNode* top = q.front();
+                q.pop();
+
+                if (top->left) {
+                    top->left->val = (top->val) * 2 + 1;
+                    s.insert(top->left->val);
+                    q.push(top->left);
+                }
+                if (top->right) {
+                    top->right->val = (top->val) * 2 + 2;
+                    s.insert(top->right->val);
+                    q.push(top->right);
                 }
             }
         }
     }
 
     bool find(int target) {
-        if (v[target] != -1) {
-            return true;
-        }
-        return false;
+        return s.count(target);
     }
 };
 
