@@ -1,8 +1,20 @@
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
+ * right(right) {}
+ * };
+ */
 class Solution {
 public:
     TreeNode* recoverFromPreorder(string traversal) {
         unordered_map<int, vector<TreeNode*>> m;
-        TreeNode* root = nullptr;
+        auto root = new TreeNode() ;
         int i = 0;
         while (i < traversal.size()) {
             int level = 0;
