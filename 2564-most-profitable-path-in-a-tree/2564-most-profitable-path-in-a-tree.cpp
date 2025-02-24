@@ -1,49 +1,48 @@
 class Solution {
-private:
-    bool dfs(int node, int parent, vector<vector<int>>& adj, int target, vector<int>& path) {
-        path.push_back(node);
-        if (node == target) return true;
-        for (int next : adj[node]) {
-            if (next == parent) continue;
-            if (dfs(next, node, adj, target, path)) return true;
-        }
-        path.pop_back();
-        return false;
-    }
 public:
     int mostProfitablePath(vector<vector<int>>& edges, int bob, vector<int>& amount) {
         int n = amount.size();
         vector<vector<int>> adj(n);
-        for (auto &edge : edges) {
-            int u = edge[0], v = edge[1];
+        for (auto &e : edges) {
+            int u = e[0], v = e[1];
             adj[u].push_back(v);
             adj[v].push_back(u);
         }
-        vector<int> bobPath;
-        dfs(bob, -1, adj, 0, bobPath);
-        reverse(bobPath.begin(), bobPath.end());
-        int m = bobPath.size();
-        for (int i = 0; i < m; i++) {
-            int node = bobPath[i];
-            if (i < m - 1 - i) {
-            } else if (i == (m - 1)/2) {
-                amount[node] /= 2;
-            } else {
-                amount[node] = 0;
+        vector<int> parent(n, -1), dist(n, -1);
+        queue<int> q;
+        q.push(0);
+        dist[0] = 0;
+        while (!q.empty()){
+            int cur = q.front();
+            q.pop();
+            for (int nxt : adj[cur]){
+                if (dist[nxt] == -1){
+                    dist[nxt] = dist[cur] + 1;
+                    parent[nxt] = cur;
+                    q.push(nxt);
+                }
             }
         }
-        function<int(int, int)> finder = [&](int node, int parent) -> int {
-            int curr = amount[node];
-            bool leaf = true;
-            int best = INT_MIN;
-            for (int next : adj[node]) {
-                if (next == parent) continue;
-                leaf = false;
-                best = max(best, finder(next, node));
+        vector<int> bobTime(n, INT_MAX);
+        int cur = bob, t = 0;
+        while(cur != -1){
+            bobTime[cur] = t;
+            cur = parent[cur];
+            t++;
+        }
+        function<int(int, int, int)> dfs = [&](int node, int par, int tAlice) -> int {
+            int curProfit;
+            if(tAlice < bobTime[node]) curProfit = amount[node];
+            else if(tAlice == bobTime[node]) curProfit = amount[node] / 2;
+            else curProfit = 0;
+            if(node != 0 && adj[node].size() == 1) return curProfit;
+            int best = -1e9;
+            for (int nxt : adj[node]) {
+                if(nxt == par) continue;
+                best = max(best, dfs(nxt, node, tAlice + 1));
             }
-            if (leaf) return curr;
-            return curr + best;
+            return curProfit + best;
         };
-        return finder(0, -1);
+        return dfs(0, -1, 0);
     }
 };
