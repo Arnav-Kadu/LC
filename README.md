@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0407-trapping-rain-water-ii](https://github.com/Arnav-Kadu/LC/tree/master/0407-trapping-rain-water-ii) |
+| [0828-chalkboard-xor-game](https://github.com/Arnav-Kadu/LC/tree/master/0828-chalkboard-xor-game) |
 | [0854-making-a-large-island](https://github.com/Arnav-Kadu/LC/tree/master/0854-making-a-large-island) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Arnav-Kadu/LC/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1364-tuple-with-same-product](https://github.com/Arnav-Kadu/LC/tree/master/1364-tuple-with-same-product) |
@@ -91,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0828-chalkboard-xor-game](https://github.com/Arnav-Kadu/LC/tree/master/0828-chalkboard-xor-game) |
 | [2509-minimize-xor](https://github.com/Arnav-Kadu/LC/tree/master/2509-minimize-xor) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Arnav-Kadu/LC/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Arnav-Kadu/LC/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
@@ -98,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Brainteaser
 |  |
 | ------- |
+| [0828-chalkboard-xor-game](https://github.com/Arnav-Kadu/LC/tree/master/0828-chalkboard-xor-game) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Arnav-Kadu/LC/tree/master/2533-bitwise-xor-of-all-pairings) |
 ## Breadth-First Search
 |  |
@@ -211,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0828-chalkboard-xor-game](https://github.com/Arnav-Kadu/LC/tree/master/0828-chalkboard-xor-game) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Arnav-Kadu/LC/tree/master/1477-product-of-the-last-k-numbers) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Arnav-Kadu/LC/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [2448-count-number-of-bad-pairs](https://github.com/Arnav-Kadu/LC/tree/master/2448-count-number-of-bad-pairs) |
@@ -254,4 +258,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2538-minimum-cost-to-make-array-equal](https://github.com/Arnav-Kadu/LC/tree/master/2538-minimum-cost-to-make-array-equal) |
+## Game Theory
+|  |
+| ------- |
+| [0828-chalkboard-xor-game](https://github.com/Arnav-Kadu/LC/tree/master/0828-chalkboard-xor-game) |
 <!---LeetCode Topics End-->
