@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Arnav-Kadu/LC/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Arnav-Kadu/LC/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2107-find-unique-binary-string](https://github.com/Arnav-Kadu/LC/tree/master/2107-find-unique-binary-string) |
+| [2115-number-of-unique-good-subsequences](https://github.com/Arnav-Kadu/LC/tree/master/2115-number-of-unique-good-subsequences) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/Arnav-Kadu/LC/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Arnav-Kadu/LC/tree/master/2456-construct-smallest-number-from-di-string) |
 | [3447-clear-digits](https://github.com/Arnav-Kadu/LC/tree/master/3447-clear-digits) |
@@ -268,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1170-shortest-common-supersequence](https://github.com/Arnav-Kadu/LC/tree/master/1170-shortest-common-supersequence) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Arnav-Kadu/LC/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Arnav-Kadu/LC/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+| [2115-number-of-unique-good-subsequences](https://github.com/Arnav-Kadu/LC/tree/master/2115-number-of-unique-good-subsequences) |
 ## Binary Search
 |  |
 | ------- |
