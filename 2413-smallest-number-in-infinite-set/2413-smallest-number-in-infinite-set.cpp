@@ -1,8 +1,8 @@
 class SmallestInfiniteSet {
 public:
-    map<int, int> m;
+    vector<int> m;
     int start = 1;
-    SmallestInfiniteSet() {
+    SmallestInfiniteSet() :m(1001){
         for (int i = 1; i <= 1000; i++) {
             m[i]++;
         }
