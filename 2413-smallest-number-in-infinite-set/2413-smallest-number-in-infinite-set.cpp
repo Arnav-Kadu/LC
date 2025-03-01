@@ -2,10 +2,7 @@ class SmallestInfiniteSet {
 public:
     vector<int> m;
     int start = 1;
-    SmallestInfiniteSet() :m(1001){
-        for (int i = 1; i <= 1000; i++) {
-            m[i]++;
-        }
+    SmallestInfiniteSet() :m(1001,1){
     }
 
     int popSmallest() {
