@@ -94,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3331-minimum-operations-to-exceed-threshold-value-i](https://github.com/Arnav-Kadu/LC/tree/master/3331-minimum-operations-to-exceed-threshold-value-i) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Arnav-Kadu/LC/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/Arnav-Kadu/LC/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
+| [3423-maximum-sum-of-subsequence-with-non-adjacent-elements](https://github.com/Arnav-Kadu/LC/tree/master/3423-maximum-sum-of-subsequence-with-non-adjacent-elements) |
 | [3429-special-array-i](https://github.com/Arnav-Kadu/LC/tree/master/3429-special-array-i) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Arnav-Kadu/LC/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## Bit Manipulation
@@ -262,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Arnav-Kadu/LC/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [3423-maximum-sum-of-subsequence-with-non-adjacent-elements](https://github.com/Arnav-Kadu/LC/tree/master/3423-maximum-sum-of-subsequence-with-non-adjacent-elements) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -270,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Arnav-Kadu/LC/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Arnav-Kadu/LC/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [2115-number-of-unique-good-subsequences](https://github.com/Arnav-Kadu/LC/tree/master/2115-number-of-unique-good-subsequences) |
+| [3423-maximum-sum-of-subsequence-with-non-adjacent-elements](https://github.com/Arnav-Kadu/LC/tree/master/3423-maximum-sum-of-subsequence-with-non-adjacent-elements) |
 ## Binary Search
 |  |
 | ------- |
@@ -282,4 +285,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2551-apply-operations-to-an-array](https://github.com/Arnav-Kadu/LC/tree/master/2551-apply-operations-to-an-array) |
+## Segment Tree
+|  |
+| ------- |
+| [3423-maximum-sum-of-subsequence-with-non-adjacent-elements](https://github.com/Arnav-Kadu/LC/tree/master/3423-maximum-sum-of-subsequence-with-non-adjacent-elements) |
 <!---LeetCode Topics End-->
