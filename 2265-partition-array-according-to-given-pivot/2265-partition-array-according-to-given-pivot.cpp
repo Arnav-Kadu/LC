@@ -5,7 +5,7 @@ public:
         vector<int>ans(n);
         int low=0;
         int high=n-1;
-        int count=0;
+       // int count=0;
         for(int i=0;i<n;i++){
             if(pivot<nums[i]){
                 ans[high]=nums[i];
@@ -13,11 +13,9 @@ public:
             }else if(pivot>nums[i]){
                 ans[low]=nums[i];
                 low++;
-            }else{
-              count++;
             }
         }
-        for(int i=0;i<count;i++){
+        for(;low<=high;){
             ans[low]=pivot;
             low++;
         }
