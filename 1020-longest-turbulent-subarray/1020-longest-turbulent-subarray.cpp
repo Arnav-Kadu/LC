@@ -1,30 +1,36 @@
 class Solution {
 public:
-    int maxTurbulenceSize(vector<int>& arr) {
-        int n = arr.size();
-        if(n < 2) return n;
-        int ans = 1, start = 0, end = 0;
-        while(end < n - 1) {
-            int toggle = (arr[end] < arr[end+1]) ? 1 : (arr[end] > arr[end+1]) ? -1 : 0;
-            if(toggle == 0) {
-                start = end + 1;
-                end++;
-                continue;
-            }
-            while(end < n - 1) {
-                int currToggle = (arr[end] < arr[end+1]) ? 1 : (arr[end] > arr[end+1]) ? -1 : 0;
-                if(currToggle == 0) break;
-                if(end == start) {
-                    end++;
-                    continue;
-                }
-                int prevToggle = (arr[end-1] < arr[end]) ? 1 : (arr[end-1] > arr[end]) ? -1 : 0;
-                if(currToggle * prevToggle != -1) break;
-                end++;
-            }
-            ans = max(ans, end - start + 1);
-            start = end;
+int maxTurbulenceSize(vector<int>& arr) {
+    int n=arr.size();
+    if(n==1)return 1;
+    int maxsize=1;
+    int len=1;
+    int flag=0;
+    /*
+    flag=0 , no condition
+    flag=1 , arr[i]>arr[i+1]
+    flag=2 , arr[i]<arr[i+1]
+    */
+    for (int i = 0; i <n-1; i++)
+    {
+        if((flag==0 || flag==2) && arr[i]>arr[i+1]){
+            flag=1;
+            len++;
+            maxsize=max(len,maxsize);
         }
-        return ans;
-    }
+        else if ((flag==0 || flag==1) && arr[i]<arr[i+1])
+        {
+            flag=2;
+            len++;
+            maxsize=max(maxsize,len);
+        }
+        else{
+            if(arr[i]==arr[i+1]){
+                len=1;
+            }
+            else len=2;
+        }
+    }   
+   return maxsize;        
+}
 };
