@@ -257,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Arnav-Kadu/LC/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/Arnav-Kadu/LC/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2448-count-number-of-bad-pairs](https://github.com/Arnav-Kadu/LC/tree/master/2448-count-number-of-bad-pairs) |
+| [2649-count-total-number-of-colored-cells](https://github.com/Arnav-Kadu/LC/tree/master/2649-count-total-number-of-colored-cells) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/Arnav-Kadu/LC/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Data Stream
 |  |
