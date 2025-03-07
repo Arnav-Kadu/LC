@@ -1,44 +1,33 @@
-class Solution {
-    unordered_set<int> primes;
-private:
-    void compute() {
-        int n = 1000000;
-        vector<bool> sieve(n + 1, true);
-        sieve[0] = sieve[1] = false;
-        for (int i = 2; i * i <= n; i++) {
-            if (sieve[i]) {
-                for (int j = i * i; j <= n; j += i)
-                    sieve[j] = false;
-            }
-        }
-        for (int i = 2; i <= n; i++) {
-            if (sieve[i])
-                primes.insert(i);
-        }
-    }
+bool isPrime[1000005] = {false};
 
+class Solution {
 public:
     vector<int> closestPrimes(int left, int right) {
-        compute();
-        vector<int> sorted_primes(primes.begin(), primes.end());
-        sort(sorted_primes.begin(), sorted_primes.end());
-        auto start_it = lower_bound(sorted_primes.begin(), sorted_primes.end(), left);
-        auto end_it = upper_bound(sorted_primes.begin(), sorted_primes.end(), right);
-        if (distance(start_it, end_it) < 2)
-            return vector<int>{-1, -1};
-        int best_diff = INT_MAX;
-        vector<int> answer{-1, -1};
-        for (auto it = start_it; it != end_it; ++it) {
-            auto next = it;
-            ++next;
-            if (next == end_it)
-                break;
-            int diff = *next - *it;
-            if (diff < best_diff) {
-                best_diff = diff;
-                answer = {*it, *next};
-            }
+        if (isPrime[2] == 0) {
+            memset(isPrime, 1, sizeof(isPrime));
+            static int arr[2];
+            isPrime[1] = 0;
+
+            for (int i = 2; i <= 1000000; ++i)
+                if (isPrime[i])
+                    for (int j = i << 1; j <= 1000000; j += i)
+                        isPrime[j] = false;
         }
-        return answer;
+
+        int idx = 0;
+        vector<int> res{-1, -1};
+
+        for (int i = left, last = -1; i <= right ; ++i)
+            if (isPrime[i]) {
+                if (last != -1) {
+                    if (res[0] == -1)
+                        res[1] = i, res[0] = last;
+                    else if(res[1] - res[0] > i - last)
+                        res[1] = i, res[0] = last;
+                }
+                last = i;
+            }
+        
+        return res;
     }
 };
