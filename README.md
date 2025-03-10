@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3354-replace-question-marks-in-string-to-minimize-its-value](https://github.com/Arnav-Kadu/LC/tree/master/3354-replace-question-marks-in-string-to-minimize-its-value) |
 | [3447-clear-digits](https://github.com/Arnav-Kadu/LC/tree/master/3447-clear-digits) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Arnav-Kadu/LC/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Arnav-Kadu/LC/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Stack
 |  |
 | ------- |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3354-replace-question-marks-in-string-to-minimize-its-value](https://github.com/Arnav-Kadu/LC/tree/master/3354-replace-question-marks-in-string-to-minimize-its-value) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Arnav-Kadu/LC/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Arnav-Kadu/LC/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Arnav-Kadu/LC/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Counting
 |  |
 | ------- |
@@ -348,4 +350,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Arnav-Kadu/LC/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3463-alternating-groups-i](https://github.com/Arnav-Kadu/LC/tree/master/3463-alternating-groups-i) |
 | [3483-alternating-groups-ii](https://github.com/Arnav-Kadu/LC/tree/master/3483-alternating-groups-ii) |
+| [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Arnav-Kadu/LC/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 <!---LeetCode Topics End-->
