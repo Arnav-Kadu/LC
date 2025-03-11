@@ -6,7 +6,6 @@ public:
         int ans = 0;
         int n = s.size();
         vector<int> cnt(3, 0);
-        int extra=0;
         while (end < n) {
             cnt[s[end] - 'a']++;
               while (cnt[0] && cnt[1] && cnt[2]) {
@@ -15,10 +14,6 @@ public:
                 start++;
             }
             end++;
-        }
-        if (cnt[0] >= 1 && cnt[1] >= 1 && cnt[2] >= 1) {
-            ans += (n - end);
-            cnt[s[start] - 'a']--;
         }
         return ans;
     }
