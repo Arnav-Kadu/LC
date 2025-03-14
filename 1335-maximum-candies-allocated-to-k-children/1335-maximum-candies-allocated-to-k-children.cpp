@@ -10,7 +10,7 @@ private:
 public:
     int maximumCandies(vector<int>& candies, long long k) {
         int low=1;
-        int high=*max_element(candies.begin(),candies.end());
+        long long high=accumulate(candies.begin(),candies.end(),0LL)/k;
         int ans=0;
         while(low<=high){
             int mid=(high-low)/2+low;
