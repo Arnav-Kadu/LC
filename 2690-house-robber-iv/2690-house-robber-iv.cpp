@@ -1,14 +1,15 @@
 class Solution {
 private:
     bool check(int mid,int k,vector<int>&nums){
-        int see=0;
+        //int see=0;
         for(int i=0;i<nums.size();i++){
             if(mid>=nums[i]){
-                see++;
+                k--;
                 i++;
+                if(k==0) return true;
             }
         }
-        return see>=k;
+        return k==0;
     }
 public:
     int minCapability(vector<int>& nums, int k) {
