@@ -1,25 +1,32 @@
 class Solution {
 public:
     vector<string> findAllRecipes(vector<string>& recipes, vector<vector<string>>& ingredients, vector<string>& supplies) {
-        unordered_map<string, int> indegree;
-        unordered_map<string, vector<string>> graph;
-        for (int i = 0; i < recipes.size(); i++) {
-            indegree[recipes[i]] = ingredients[i].size();
-            for (auto &ing : ingredients[i])
-                graph[ing].push_back(recipes[i]);
-        }
-        queue<string> q;
-        for (auto &s : supplies)
-            q.push(s);
-        vector<string> ans;
-        while (!q.empty()) {
-            string cur = q.front();
-            q.pop();
-            for (auto &next : graph[cur]) {
-                if (--indegree[next] == 0) {
-                    ans.push_back(next);
-                    q.push(next);
+        int n=recipes.size();
+        vector<int>indegree(n,0);
+        unordered_map<string,vector<int>>adj;
+        unordered_set<string>see(supplies.begin(),supplies.end());
+        for(int i=0;i<n;i++){
+            for(auto next:ingredients[i]){
+                if(!see.count(next)){
+                    adj[next].push_back(i);
+                    indegree[i]++;
                 }
+            }
+        }
+        queue<int>q;
+        for(int i=0;i<n;i++){
+            if(indegree[i]==0){
+                q.push(i);
+            }
+        }
+        vector<string>ans;
+        while(!q.empty()){
+            auto first=q.front();
+            q.pop();
+            ans.push_back(recipes[first]);
+            string s=recipes[first];
+            for(auto next:adj[s]){
+                if(--indegree[next]==0) q.push(next);
             }
         }
         return ans;
