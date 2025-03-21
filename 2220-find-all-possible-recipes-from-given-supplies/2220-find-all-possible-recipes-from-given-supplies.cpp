@@ -1,26 +1,35 @@
 class Solution {
 public:
     vector<string> findAllRecipes(vector<string>& recipes, vector<vector<string>>& ingredients, vector<string>& supplies) {
-        unordered_map<string, int> indegree;
-        unordered_map<string, vector<string>> graph;
+        unordered_set<string> supplySet(supplies.begin(), supplies.end());
+        unordered_map<string, vector<string>> recipeMap;
         for (int i = 0; i < recipes.size(); i++) {
-            indegree[recipes[i]] = ingredients[i].size();
-            for (auto &ing : ingredients[i])
-                graph[ing].push_back(recipes[i]);
+            recipeMap[recipes[i]] = ingredients[i];
         }
-        queue<string> q;
-        for (auto &s : supplies)
-            q.push(s);
+        unordered_map<string, bool> memo;
+        unordered_set<string> visiting;
         vector<string> ans;
-        while (!q.empty()) {
-            string cur = q.front();
-            q.pop();
-            for (auto &next : graph[cur]) {
-                if (--indegree[next] == 0) {
-                    ans.push_back(next);
-                    q.push(next);
+        function<bool(const string&)> dfs = [&](const string &r) -> bool {
+            if (supplySet.count(r)) return true;
+            if (memo.count(r)) return memo[r];
+            if (visiting.count(r)) return false;
+            visiting.insert(r);
+            if (!recipeMap.count(r)) {
+                visiting.erase(r);
+                return memo[r] = false;
+            }
+            for (auto &ing : recipeMap[r]) {
+                if (!dfs(ing)) {
+                    visiting.erase(r);
+                    return memo[r] = false;
                 }
             }
+            visiting.erase(r);
+            supplySet.insert(r);
+            return memo[r] = true;
+        };
+        for (auto &r : recipes) {
+            if (dfs(r)) ans.push_back(r);
         }
         return ans;
     }
