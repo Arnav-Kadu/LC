@@ -131,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/Arnav-Kadu/LC/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3423-maximum-sum-of-subsequence-with-non-adjacent-elements](https://github.com/Arnav-Kadu/LC/tree/master/3423-maximum-sum-of-subsequence-with-non-adjacent-elements) |
 | [3429-special-array-i](https://github.com/Arnav-Kadu/LC/tree/master/3429-special-array-i) |
+| [3430-count-days-without-meetings](https://github.com/Arnav-Kadu/LC/tree/master/3430-count-days-without-meetings) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Arnav-Kadu/LC/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3463-alternating-groups-i](https://github.com/Arnav-Kadu/LC/tree/master/3463-alternating-groups-i) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Arnav-Kadu/LC/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
@@ -267,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2538-minimum-cost-to-make-array-equal](https://github.com/Arnav-Kadu/LC/tree/master/2538-minimum-cost-to-make-array-equal) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Arnav-Kadu/LC/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3354-replace-question-marks-in-string-to-minimize-its-value](https://github.com/Arnav-Kadu/LC/tree/master/3354-replace-question-marks-in-string-to-minimize-its-value) |
+| [3430-count-days-without-meetings](https://github.com/Arnav-Kadu/LC/tree/master/3430-count-days-without-meetings) |
 ## Simulation
 |  |
 | ------- |
