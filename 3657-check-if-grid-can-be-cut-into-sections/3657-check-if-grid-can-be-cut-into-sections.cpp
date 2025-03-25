@@ -15,6 +15,7 @@ public:
             ex = max(ex, rx[i][2]);
             if (ey <= ry[i][1]) gy++;
             ey = max(ey, ry[i][3]);
+            if(gx>=2 || gy>=2) return true;
         }
         return gx >= 2 || gy >= 2;
     }
