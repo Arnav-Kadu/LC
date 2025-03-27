@@ -3,7 +3,7 @@ public:
     int minimumIndex(vector<int>& nums) {
         int mx = INT_MIN;
         int which = -1;
-        map<int, int> m;
+        unordered_map<int, int> m;
         for (auto i : nums) {
             m[i]++;
             if (m[i] > mx) {
