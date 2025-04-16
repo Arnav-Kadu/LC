@@ -5,7 +5,7 @@ public:
         int n = nums.size();
         int start = 0;
         int end = 0;
-        map<int, int> m;
+        unordered_map<int, int> m;
         long long count = 0;
         while (end < n) {
             count += m[nums[end]];
