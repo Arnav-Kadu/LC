@@ -4,13 +4,13 @@ public:
         int n = nums.size();
         long long ans = 0;
         int j = 0;
-        map<int, int> m;
+        int cnt=0;
         int mx=*max_element(nums.begin(),nums.end());
         for (int i = 0; i < n; i++) {
-            m[nums[i]]++;
-            while (m[mx] >= k) {
+            cnt+=(mx==nums[i]);
+            while (cnt >= k) {
                 ans += n - i;
-                m[nums[j]]--;
+                cnt-=(mx==nums[j]);
                 j++;
             }
         }
