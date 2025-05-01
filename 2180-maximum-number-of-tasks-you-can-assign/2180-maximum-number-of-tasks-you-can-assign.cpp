@@ -1,18 +1,16 @@
 class Solution {
 private:
-    bool check(int mid, vector<int>& tasks, vector<int>& workers, int strength, int pills) {
+    bool check(int mid, vector<int>& tasks, vector<int>& workers, int strength, int pills){
         multiset<int> temp(workers.end() - mid, workers.end());
-        for (int i = mid - 1; i >= 0; --i) {
+        for(int i = mid - 1; i >= 0; --i){
             auto it = prev(temp.end());
-            if (*it >= tasks[i]) {
-                temp.erase(it);
-            } else {
-                int need = tasks[i] - strength;
-                it = temp.lower_bound(need);
-                if (it == temp.end() || pills == 0) return false;
+            if(*it < tasks[i]){
+                it = temp.lower_bound(tasks[i] - strength);
+                if(it == temp.end()) return false;
                 --pills;
-                temp.erase(it);
+                if(pills < 0) return false;
             }
+            temp.erase(it);
         }
         return true;
     }
@@ -22,9 +20,9 @@ public:
         sort(workers.begin(), workers.end());
         int n = tasks.size(), m = workers.size();
         int low = 0, high = min(n, m);
-        while (low < high) {
+        while(low < high){
             int mid = (low + high + 1) / 2;
-            if (check(mid, tasks, workers, strength, pills))
+            if(check(mid, tasks, workers, strength, pills))
                 low = mid;
             else
                 high = mid - 1;
