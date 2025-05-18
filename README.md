@@ -446,6 +446,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Arnav-Kadu/LC/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1676-minimum-number-of-days-to-eat-n-oranges](https://github.com/Arnav-Kadu/LC/tree/master/1676-minimum-number-of-days-to-eat-n-oranges) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Arnav-Kadu/LC/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+| [2061-painting-a-grid-with-three-different-colors](https://github.com/Arnav-Kadu/LC/tree/master/2061-painting-a-grid-with-three-different-colors) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Arnav-Kadu/LC/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2115-number-of-unique-good-subsequences](https://github.com/Arnav-Kadu/LC/tree/master/2115-number-of-unique-good-subsequences) |
 | [2652-count-number-of-possible-root-nodes](https://github.com/Arnav-Kadu/LC/tree/master/2652-count-number-of-possible-root-nodes) |
