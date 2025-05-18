@@ -1,36 +1,60 @@
 class Solution {
 public:
-    const int mod = 1e9 + 7;
-    int dp[1005][250], rowValid[250][250];
-    vector<int> good, pattern [250];
+    vector<string> stripes;
+    vector<char> temp;
+    int p = 1e9 + 7;
     int colorTheGrid(int m, int n) {
-        int total = pow(3, m);
-
-        for (int i = 0; i < total; i++) {
-            int val = i, valid = 1;
-            for (int j = 0; j < m; j++) 
-                pattern[i].push_back(val % 3), val /= 3;
-            for (int j = 1; j < m; j++) 
-                if (pattern[i][j] == pattern[i][j - 1]) valid = 0;
-            if (valid) good.push_back(i);
-        }
-        for (int i : good) dp[1][i] = 1;
-
-        for (int i : good) {
-            for (int j : good) {
-                rowValid[i][j] = 1;
-                for (int k = 0; k < m; k++) 
-                    if (pattern[i][k] == pattern[j][k]) 
-                        rowValid[i][j] = 0;
+        dfs(m, ' ', 0);
+        // now we have all the available stripes to fill a row with
+        int z = stripes.size();
+        vector<vector<int>> adj(z);
+        for(int i = 0; i < z; i++)
+        for(int j = i + 1; j < z; j++)
+            if(!conflict(i, j)) {
+                adj[i].push_back(j);
+                adj[j].push_back(i);
+            }
+        // dp[i][j] tells us the different ways we can
+        // colors m * (i + 1) table such that the last
+        // stripe is stripes[j]
+        vector<vector<int>> dp(n, vector<int>(z));
+        for(int i = 0; i < n; i++)
+        for(int j = 0; j < z; j++)
+            if(i == 0) dp[i][j] = 1;
+            else for(int nbr : adj[j])
+                dp[i][j] = (dp[i][j] + dp[i - 1][nbr]) % p;
+        int total = 0;
+        for(int j = 0; j < z; j++)
+            total = (total + dp[n - 1][j]) % p;
+        return total;
+    }
+    bool conflict(int i, int j) {
+        string a = stripes[i], b = stripes[j];
+        for(int i = 0; i < a.size(); i++)
+            if(a[i] == b[i]) return true;
+        return false;
+    }
+    void dfs(int m, char last, int j) {
+        if(j == m) {
+            string s = "";
+            for(char c : temp) s += c;
+            stripes.push_back(s);
+        } else {
+            if(last != 'r') {
+                temp.push_back('r');
+                dfs(m, 'r', j + 1);
+                temp.pop_back();
+            }
+            if(last != 'b') {
+                temp.push_back('b');
+                dfs(m, 'b', j + 1);
+                temp.pop_back();
+            }
+            if(last != 'g') {
+                temp.push_back('g');
+                dfs(m, 'g', j + 1);
+                temp.pop_back();
             }
         }
-
-        for (int col = 2; col <= n; col++)
-            for (int i : good)
-                for (int j : good)
-                    if (rowValid[i][j]) 
-                        dp[col][i] = (dp[col][i] + dp[col - 1][j]) % mod;
-                        
-        return accumulate(dp[n], dp[n] + total, 0L) % mod;
     }
 };
