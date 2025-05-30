@@ -1,12 +1,12 @@
 class Solution {
     void compute(vector<int>& edges, int node1, vector<int>& dist) {
         int n = edges.size();
-        priority_queue<pair<int, int>, vector<pair<int, int>>,greater<pair<int, int>>>pq;
+        queue<pair<int,int>>pq;
         dist[node1] = 0;
         pq.push({0, node1});
         vector<int> vis(n + 1, 0);
         while (!pq.empty()) {
-            auto [d, u] = pq.top();
+            auto [d, u] = pq.front();
             pq.pop();
             if (vis[u] || d > dist[u])
                 continue;
