@@ -11,11 +11,7 @@ public:
             if (word[i] > curr) {
                 curr = word[i];
             }
-        }
-        for (int i = 0; i < n; i++) {
-            if (word[i] == curr) {
-                store[curr - 'a'].push_back(i);
-            }
+            store[word[i]-'a'].push_back(i);
         }
         string ans = "";
         for (auto start : store[curr - 'a']) {
