@@ -9,6 +9,7 @@ private:
                 if (output > K) return K + 1;  
             }
             res <<= 1;
+            if (res > K) res = (long long)K+1;
         }
         return (int)output;
     }
