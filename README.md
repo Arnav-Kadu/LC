@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0594-longest-harmonious-subsequence](https://github.com/Arnav-Kadu/LC/tree/master/0594-longest-harmonious-subsequence) |
 | [0768-partition-labels](https://github.com/Arnav-Kadu/LC/tree/master/0768-partition-labels) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Arnav-Kadu/LC/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Arnav-Kadu/LC/tree/master/0905-length-of-longest-fibonacci-subsequence) |
@@ -122,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0594-longest-harmonious-subsequence](https://github.com/Arnav-Kadu/LC/tree/master/0594-longest-harmonious-subsequence) |
 | [1160-letter-tile-possibilities](https://github.com/Arnav-Kadu/LC/tree/master/1160-letter-tile-possibilities) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Arnav-Kadu/LC/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1364-tuple-with-same-product](https://github.com/Arnav-Kadu/LC/tree/master/1364-tuple-with-same-product) |
@@ -146,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0368-largest-divisible-subset](https://github.com/Arnav-Kadu/LC/tree/master/0368-largest-divisible-subset) |
 | [0407-trapping-rain-water-ii](https://github.com/Arnav-Kadu/LC/tree/master/0407-trapping-rain-water-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/Arnav-Kadu/LC/tree/master/0416-partition-equal-subset-sum) |
+| [0594-longest-harmonious-subsequence](https://github.com/Arnav-Kadu/LC/tree/master/0594-longest-harmonious-subsequence) |
 | [0828-chalkboard-xor-game](https://github.com/Arnav-Kadu/LC/tree/master/0828-chalkboard-xor-game) |
 | [0854-making-a-large-island](https://github.com/Arnav-Kadu/LC/tree/master/0854-making-a-large-island) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Arnav-Kadu/LC/tree/master/0905-length-of-longest-fibonacci-subsequence) |
@@ -388,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0075-sort-colors](https://github.com/Arnav-Kadu/LC/tree/master/0075-sort-colors) |
 | [0368-largest-divisible-subset](https://github.com/Arnav-Kadu/LC/tree/master/0368-largest-divisible-subset) |
+| [0594-longest-harmonious-subsequence](https://github.com/Arnav-Kadu/LC/tree/master/0594-longest-harmonious-subsequence) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Arnav-Kadu/LC/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Arnav-Kadu/LC/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Arnav-Kadu/LC/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
@@ -566,6 +570,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0594-longest-harmonious-subsequence](https://github.com/Arnav-Kadu/LC/tree/master/0594-longest-harmonious-subsequence) |
 | [1020-longest-turbulent-subarray](https://github.com/Arnav-Kadu/LC/tree/master/1020-longest-turbulent-subarray) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Arnav-Kadu/LC/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Arnav-Kadu/LC/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
