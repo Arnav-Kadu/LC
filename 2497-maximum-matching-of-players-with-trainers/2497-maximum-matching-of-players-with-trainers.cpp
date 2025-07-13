@@ -1,14 +1,14 @@
 class Solution {
 public:
     int matchPlayersAndTrainers(vector<int>& players, vector<int>& trainers) {
-        multiset<int> see(trainers.begin(), trainers.end());
         sort(players.begin(), players.end());
+        sort(trainers.begin(), trainers.end());
         int count = 0;
         for (int p : players) {
-            auto it = see.lower_bound(p);
-            if (it != see.end()) {
+            auto it = lower_bound(trainers.begin(), trainers.end(), p);
+            if (it != trainers.end()) {
                 ++count;
-                see.erase(it);
+                trainers.erase(it);
             }
         }
         return count;
