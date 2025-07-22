@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1364-tuple-with-same-product](https://github.com/Arnav-Kadu/LC/tree/master/1364-tuple-with-same-product) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Arnav-Kadu/LC/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Arnav-Kadu/LC/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1813-maximum-erasure-value](https://github.com/Arnav-Kadu/LC/tree/master/1813-maximum-erasure-value) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Arnav-Kadu/LC/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2107-find-unique-binary-string](https://github.com/Arnav-Kadu/LC/tree/master/2107-find-unique-binary-string) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Arnav-Kadu/LC/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
@@ -168,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Arnav-Kadu/LC/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Arnav-Kadu/LC/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1656-count-good-triplets](https://github.com/Arnav-Kadu/LC/tree/master/1656-count-good-triplets) |
+| [1813-maximum-erasure-value](https://github.com/Arnav-Kadu/LC/tree/master/1813-maximum-erasure-value) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Arnav-Kadu/LC/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1840-minimize-hamming-distance-after-swap-operations](https://github.com/Arnav-Kadu/LC/tree/master/1840-minimize-hamming-distance-after-swap-operations) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Arnav-Kadu/LC/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
@@ -584,6 +586,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0594-longest-harmonious-subsequence](https://github.com/Arnav-Kadu/LC/tree/master/0594-longest-harmonious-subsequence) |
 | [1020-longest-turbulent-subarray](https://github.com/Arnav-Kadu/LC/tree/master/1020-longest-turbulent-subarray) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Arnav-Kadu/LC/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1813-maximum-erasure-value](https://github.com/Arnav-Kadu/LC/tree/master/1813-maximum-erasure-value) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Arnav-Kadu/LC/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2478-longest-nice-subarray](https://github.com/Arnav-Kadu/LC/tree/master/2478-longest-nice-subarray) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/Arnav-Kadu/LC/tree/master/2527-count-subarrays-with-fixed-bounds) |
