@@ -243,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/Arnav-Kadu/LC/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/Arnav-Kadu/LC/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/Arnav-Kadu/LC/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
+| [3791-fruits-into-baskets-iii](https://github.com/Arnav-Kadu/LC/tree/master/3791-fruits-into-baskets-iii) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -447,6 +448,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0931-maximum-frequency-stack](https://github.com/Arnav-Kadu/LC/tree/master/0931-maximum-frequency-stack) |
 | [2413-smallest-number-in-infinite-set](https://github.com/Arnav-Kadu/LC/tree/master/2413-smallest-number-in-infinite-set) |
 | [2434-design-a-number-container-system](https://github.com/Arnav-Kadu/LC/tree/master/2434-design-a-number-container-system) |
+| [3791-fruits-into-baskets-iii](https://github.com/Arnav-Kadu/LC/tree/master/3791-fruits-into-baskets-iii) |
 ## Math
 |  |
 | ------- |
@@ -554,6 +556,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2690-house-robber-iv](https://github.com/Arnav-Kadu/LC/tree/master/2690-house-robber-iv) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Arnav-Kadu/LC/tree/master/2699-count-the-number-of-fair-pairs) |
 | [3643-zero-array-transformation-ii](https://github.com/Arnav-Kadu/LC/tree/master/3643-zero-array-transformation-ii) |
+| [3791-fruits-into-baskets-iii](https://github.com/Arnav-Kadu/LC/tree/master/3791-fruits-into-baskets-iii) |
 ## Game Theory
 |  |
 | ------- |
@@ -576,6 +579,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3423-maximum-sum-of-subsequence-with-non-adjacent-elements](https://github.com/Arnav-Kadu/LC/tree/master/3423-maximum-sum-of-subsequence-with-non-adjacent-elements) |
+| [3791-fruits-into-baskets-iii](https://github.com/Arnav-Kadu/LC/tree/master/3791-fruits-into-baskets-iii) |
 ## Number Theory
 |  |
 | ------- |
