@@ -170,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/Arnav-Kadu/LC/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Arnav-Kadu/LC/tree/master/1477-product-of-the-last-k-numbers) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Arnav-Kadu/LC/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Arnav-Kadu/LC/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Arnav-Kadu/LC/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Arnav-Kadu/LC/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1656-count-good-triplets](https://github.com/Arnav-Kadu/LC/tree/master/1656-count-good-triplets) |
@@ -539,6 +540,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Arnav-Kadu/LC/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1020-longest-turbulent-subarray](https://github.com/Arnav-Kadu/LC/tree/master/1020-longest-turbulent-subarray) |
 | [1170-shortest-common-supersequence](https://github.com/Arnav-Kadu/LC/tree/master/1170-shortest-common-supersequence) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Arnav-Kadu/LC/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Arnav-Kadu/LC/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1676-minimum-number-of-days-to-eat-n-oranges](https://github.com/Arnav-Kadu/LC/tree/master/1676-minimum-number-of-days-to-eat-n-oranges) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Arnav-Kadu/LC/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
@@ -611,6 +613,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0867-new-21-game](https://github.com/Arnav-Kadu/LC/tree/master/0867-new-21-game) |
 | [1020-longest-turbulent-subarray](https://github.com/Arnav-Kadu/LC/tree/master/1020-longest-turbulent-subarray) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Arnav-Kadu/LC/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Arnav-Kadu/LC/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1813-maximum-erasure-value](https://github.com/Arnav-Kadu/LC/tree/master/1813-maximum-erasure-value) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/Arnav-Kadu/LC/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Arnav-Kadu/LC/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
