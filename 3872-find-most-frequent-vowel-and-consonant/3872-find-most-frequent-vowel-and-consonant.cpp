@@ -1,21 +1,19 @@
 class Solution {
 public:
-    bool is_vowel(char c) {
-        return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u';
-    }
     int maxFreqSum(string s) {
-        unordered_map<char, int> mp;
-        for (auto ch : s) {
-            mp[ch]++;
-        }
-        int vowel = 0, consonant = 0;
-        for (char ch = 'a'; ch <= 'z'; ch++) {
-            if (is_vowel(ch)) {
-                vowel = max(vowel, mp[ch]);
-            } else {
-                consonant = max(consonant, mp[ch]);
+        int count_v=0;
+        int count_c=0;
+        unordered_map<char,int>mp;
+         for(int i=0;i<s.size();i++){
+            if(s[i]=='a'||s[i]=='e'||s[i]=='i'||s[i]=='o'||s[i]=='u'){
+                mp[s[i]]++;
+                count_v=max(count_v,mp[s[i]]);
+            }
+            else{
+            mp[s[i]]++;
+                count_c=max(count_c,mp[s[i]]);
             }
         }
-        return vowel + consonant;
+        return count_v+count_c;
     }
 };
