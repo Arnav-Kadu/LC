@@ -2,17 +2,17 @@ class Solution {
 public:
     bool hasIncreasingSubarrays(vector<int>& nums, int k) {
         int n = nums.size();
-        int cnt = 1, precnt = 0, ans = 0;
-        for (int i = 1; i < n; ++i) {
-            if (nums[i] > nums[i - 1]) {
-                ++cnt;
-            } else {
-                precnt = cnt;
-                cnt = 1;
+        for (int a = 0; a + 2 * k <= n; ++a) {
+            int b = a + k;
+            bool valid = true;
+            for (int i = 1; i < k; ++i) {
+                if (nums[a + i] <= nums[a + i - 1] || nums[b + i] <= nums[b + i - 1]) {
+                    valid = false;
+                    break;
+                }
             }
-            ans = max(ans, min(precnt, cnt));
-            ans = max(ans, cnt / 2);
+            if (valid) return true;
         }
-        return ans >= k;
+        return false;
     }
 };
