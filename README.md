@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2681-put-marbles-in-bags](https://github.com/Arnav-Kadu/LC/tree/master/2681-put-marbles-in-bags) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/Arnav-Kadu/LC/tree/master/2704-maximum-difference-by-remapping-a-digit) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Arnav-Kadu/LC/tree/master/3001-apply-operations-to-maximize-score) |
+| [3075-maximize-happiness-of-selected-children](https://github.com/Arnav-Kadu/LC/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Arnav-Kadu/LC/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3354-replace-question-marks-in-string-to-minimize-its-value](https://github.com/Arnav-Kadu/LC/tree/master/3354-replace-question-marks-in-string-to-minimize-its-value) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/Arnav-Kadu/LC/tree/master/3360-minimum-deletions-to-make-string-k-special) |
@@ -241,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2792-neighboring-bitwise-xor](https://github.com/Arnav-Kadu/LC/tree/master/2792-neighboring-bitwise-xor) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/Arnav-Kadu/LC/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Arnav-Kadu/LC/tree/master/3001-apply-operations-to-maximize-score) |
+| [3075-maximize-happiness-of-selected-children](https://github.com/Arnav-Kadu/LC/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/Arnav-Kadu/LC/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Arnav-Kadu/LC/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3152-maximum-value-of-an-ordered-triplet-ii](https://github.com/Arnav-Kadu/LC/tree/master/3152-maximum-value-of-an-ordered-triplet-ii) |
@@ -468,6 +470,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2699-count-the-number-of-fair-pairs](https://github.com/Arnav-Kadu/LC/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/Arnav-Kadu/LC/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Arnav-Kadu/LC/tree/master/3001-apply-operations-to-maximize-score) |
+| [3075-maximize-happiness-of-selected-children](https://github.com/Arnav-Kadu/LC/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Arnav-Kadu/LC/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3354-replace-question-marks-in-string-to-minimize-its-value](https://github.com/Arnav-Kadu/LC/tree/master/3354-replace-question-marks-in-string-to-minimize-its-value) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/Arnav-Kadu/LC/tree/master/3360-minimum-deletions-to-make-string-k-special) |
