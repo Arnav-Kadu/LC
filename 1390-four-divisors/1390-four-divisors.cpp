@@ -17,7 +17,7 @@ public:
         sieve_divisors();
         int count = 0;
         for (int v : nums) {
-            if (v >= 0 && v <= MAX && divisors[v] == 4)
+            if (divisors[v] == 4)
                 count += divisors_count[v];
         }
         return count;
