@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0038-count-and-say](https://github.com/Arnav-Kadu/LC/tree/master/0038-count-and-say) |
 | [0434-number-of-segments-in-a-string](https://github.com/Arnav-Kadu/LC/tree/master/0434-number-of-segments-in-a-string) |
+| [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/Arnav-Kadu/LC/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0768-partition-labels](https://github.com/Arnav-Kadu/LC/tree/master/0768-partition-labels) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Arnav-Kadu/LC/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1160-letter-tile-possibilities](https://github.com/Arnav-Kadu/LC/tree/master/1160-letter-tile-possibilities) |
@@ -593,6 +594,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0368-largest-divisible-subset](https://github.com/Arnav-Kadu/LC/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/Arnav-Kadu/LC/tree/master/0416-partition-equal-subset-sum) |
+| [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/Arnav-Kadu/LC/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0806-domino-and-tromino-tiling](https://github.com/Arnav-Kadu/LC/tree/master/0806-domino-and-tromino-tiling) |
 | [0867-new-21-game](https://github.com/Arnav-Kadu/LC/tree/master/0867-new-21-game) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Arnav-Kadu/LC/tree/master/0905-length-of-longest-fibonacci-subsequence) |
