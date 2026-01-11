@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0085-maximal-rectangle](https://github.com/Arnav-Kadu/LC/tree/master/0085-maximal-rectangle) |
 | [0931-maximum-frequency-stack](https://github.com/Arnav-Kadu/LC/tree/master/0931-maximum-frequency-stack) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Arnav-Kadu/LC/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2211-count-collisions-on-a-road](https://github.com/Arnav-Kadu/LC/tree/master/2211-count-collisions-on-a-road) |
@@ -165,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/Arnav-Kadu/LC/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/Arnav-Kadu/LC/tree/master/0075-sort-colors) |
+| [0085-maximal-rectangle](https://github.com/Arnav-Kadu/LC/tree/master/0085-maximal-rectangle) |
 | [0135-candy](https://github.com/Arnav-Kadu/LC/tree/master/0135-candy) |
 | [0368-largest-divisible-subset](https://github.com/Arnav-Kadu/LC/tree/master/0368-largest-divisible-subset) |
 | [0407-trapping-rain-water-ii](https://github.com/Arnav-Kadu/LC/tree/master/0407-trapping-rain-water-ii) |
@@ -367,6 +369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/Arnav-Kadu/LC/tree/master/0073-set-matrix-zeroes) |
+| [0085-maximal-rectangle](https://github.com/Arnav-Kadu/LC/tree/master/0085-maximal-rectangle) |
 | [0407-trapping-rain-water-ii](https://github.com/Arnav-Kadu/LC/tree/master/0407-trapping-rain-water-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Arnav-Kadu/LC/tree/master/0417-pacific-atlantic-water-flow) |
 | [0794-swim-in-rising-water](https://github.com/Arnav-Kadu/LC/tree/master/0794-swim-in-rising-water) |
@@ -592,6 +595,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0085-maximal-rectangle](https://github.com/Arnav-Kadu/LC/tree/master/0085-maximal-rectangle) |
 | [0368-largest-divisible-subset](https://github.com/Arnav-Kadu/LC/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/Arnav-Kadu/LC/tree/master/0416-partition-equal-subset-sum) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/Arnav-Kadu/LC/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
@@ -707,6 +711,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0085-maximal-rectangle](https://github.com/Arnav-Kadu/LC/tree/master/0085-maximal-rectangle) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Arnav-Kadu/LC/tree/master/3001-apply-operations-to-maximize-score) |
 ## Combinatorics
 |  |
