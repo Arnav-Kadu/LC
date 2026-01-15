@@ -246,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Arnav-Kadu/LC/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2792-neighboring-bitwise-xor](https://github.com/Arnav-Kadu/LC/tree/master/2792-neighboring-bitwise-xor) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/Arnav-Kadu/LC/tree/master/2888-minimum-index-of-a-valid-split) |
+| [2943-maximize-area-of-square-hole-in-grid](https://github.com/Arnav-Kadu/LC/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Arnav-Kadu/LC/tree/master/3001-apply-operations-to-maximize-score) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/Arnav-Kadu/LC/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/Arnav-Kadu/LC/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
@@ -478,6 +479,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2681-put-marbles-in-bags](https://github.com/Arnav-Kadu/LC/tree/master/2681-put-marbles-in-bags) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Arnav-Kadu/LC/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/Arnav-Kadu/LC/tree/master/2888-minimum-index-of-a-valid-split) |
+| [2943-maximize-area-of-square-hole-in-grid](https://github.com/Arnav-Kadu/LC/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Arnav-Kadu/LC/tree/master/3001-apply-operations-to-maximize-score) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/Arnav-Kadu/LC/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Arnav-Kadu/LC/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
