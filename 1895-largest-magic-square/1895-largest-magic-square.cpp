@@ -1,55 +1,32 @@
 class Solution {
 public:
+    bool isValid(int i, int j, int k, vector<vector<int>>& grid) {
+        int sum = 0;
+        for(int x=0;x<k;x++) sum+=grid[i][j+x];
+        int sum1=0,sum2=0;
+        for(int x=0;x<k;x++){
+            for(int y=0;y<k;y++){
+                sum1+=grid[i+y][j+x]; sum2+=grid[i+x][j+y];
+            }
+            if(sum1!=sum2 || sum!=sum2) return false;
+            sum1=sum2=0;
+        }
+        for(int x=0;x<k;x++){
+            sum1+=grid[i+x][j+x]; sum2+=grid[i+x][j+k-1-x];
+        }
+        if(sum1!=sum2 || sum!=sum1 || sum!=sum2) return false;
+        return true;
+    }
     int largestMagicSquare(vector<vector<int>>& grid) {
-        int R = grid.size(), C = grid[0].size();
-
-        vector<vector<int>> row(R, vector<int>(C + 1, 0));
-        vector<vector<int>> col(R + 1, vector<int>(C, 0));
-
-        for (int i = 0; i < R; i++)
-            for (int j = 0; j < C; j++)
-                row[i][j + 1] = row[i][j] + grid[i][j];
-
-        for (int j = 0; j < C; j++)
-            for (int i = 0; i < R; i++)
-                col[i + 1][j] = col[i][j] + grid[i][j];
-
-        int ans = 1;
-
-        for (int i = 0; i < R; i++) {
-            for (int j = 0; j < C; j++) {
-                int maxSize = min(R - i, C - j);
-                for (int sz = maxSize; sz > ans; sz--) {
-                    if (isMagic(grid, row, col, i, j, sz)) {
-                        ans = sz;
-                        break;
-                    }
+        int row = grid.size();
+        int col = grid[0].size(); 
+        for(int k=min(row, col);k>1;k--){
+            for(int i = 0; i <= row - k; ++i) {
+                for(int j = 0; j <= col - k; ++j) {
+                    if(isValid(i, j, k, grid)) return k;
                 }
             }
         }
-        return ans;
-    }
-
-    bool isMagic(vector<vector<int>>& g,
-                 vector<vector<int>>& r,
-                 vector<vector<int>>& c,
-                 int x, int y, int len) {
-
-        int target = r[x][y + len] - r[x][y];
-
-        for (int i = 0; i < len; i++)
-            if (r[x + i][y + len] - r[x + i][y] != target)
-                return false;
-
-        for (int j = 0; j < len; j++)
-            if (c[x + len][y + j] - c[x][y + j] != target)
-                return false;
-
-        int d1 = 0, d2 = 0;
-        for (int k = 0; k < len; k++) {
-            d1 += g[x + k][y + k];
-            d2 += g[x + len - 1 - k][y + k];
-        }
-        return d1 == target && d2 == target;
+        return 1;
     }
 };
