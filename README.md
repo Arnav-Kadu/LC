@@ -130,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/Arnav-Kadu/LC/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Arnav-Kadu/LC/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Arnav-Kadu/LC/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/Arnav-Kadu/LC/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3548-find-the-count-of-good-integers](https://github.com/Arnav-Kadu/LC/tree/master/3548-find-the-count-of-good-integers) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Arnav-Kadu/LC/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Arnav-Kadu/LC/tree/master/3629-total-characters-in-string-after-transformations-i) |
@@ -275,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3463-alternating-groups-i](https://github.com/Arnav-Kadu/LC/tree/master/3463-alternating-groups-i) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Arnav-Kadu/LC/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/Arnav-Kadu/LC/tree/master/3483-alternating-groups-ii) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/Arnav-Kadu/LC/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/Arnav-Kadu/LC/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/Arnav-Kadu/LC/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/Arnav-Kadu/LC/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
@@ -372,6 +374,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Arnav-Kadu/LC/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3354-replace-question-marks-in-string-to-minimize-its-value](https://github.com/Arnav-Kadu/LC/tree/master/3354-replace-question-marks-in-string-to-minimize-its-value) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Arnav-Kadu/LC/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/Arnav-Kadu/LC/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Arnav-Kadu/LC/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Arnav-Kadu/LC/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Matrix
@@ -510,6 +513,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Arnav-Kadu/LC/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Arnav-Kadu/LC/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3447-clear-digits](https://github.com/Arnav-Kadu/LC/tree/master/3447-clear-digits) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/Arnav-Kadu/LC/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 ## Design
 |  |
 | ------- |
@@ -525,6 +529,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0931-maximum-frequency-stack](https://github.com/Arnav-Kadu/LC/tree/master/0931-maximum-frequency-stack) |
 | [2413-smallest-number-in-infinite-set](https://github.com/Arnav-Kadu/LC/tree/master/2413-smallest-number-in-infinite-set) |
 | [2434-design-a-number-container-system](https://github.com/Arnav-Kadu/LC/tree/master/2434-design-a-number-container-system) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/Arnav-Kadu/LC/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3791-fruits-into-baskets-iii](https://github.com/Arnav-Kadu/LC/tree/master/3791-fruits-into-baskets-iii) |
 ## Math
 |  |
@@ -763,6 +768,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Arnav-Kadu/LC/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/Arnav-Kadu/LC/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 ## Probability and Statistics
 |  |
 | ------- |
@@ -775,4 +781,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/Arnav-Kadu/LC/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/Arnav-Kadu/LC/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 <!---LeetCode Topics End-->
