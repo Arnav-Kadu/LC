@@ -1,77 +1,62 @@
 class Solution {
 public:
     int minimumPairRemoval(vector<int>& nums) {
-        int n = (int)nums.size();
-        if (n <= 1) 
-            return 0;
-        vector<long long> a(n);
-        for (int i = 0; i < n; i++) a[i] = nums[i];
-        vector<int> left(n, -1);
-        vector<int> right(n, -1);
-        for (int i = 0; i < n; i++) {
-            left[i] = i - 1;
-            right[i] = (i + 1 < n) ? i + 1 : -1;
+        int n = nums.size();
+        
+        vector<long long> arr(nums.begin(), nums.end());
+        vector<bool> removed(n, false);
+        priority_queue<pair<long long, int>, vector<pair<long long, int>>, greater<>> pq;
+        
+        int sorted = 0;
+        for (int i = 1; i < n; ++i) {
+            pq.emplace(arr[i-1] + arr[i], i-1);
+            if (arr[i] >= arr[i-1]) sorted++;
         }
-        using P = pair<long long, int>;
-        priority_queue<P, vector<P>, greater<P>> heap;
-        for (int i = 0; i < n - 1; i++) {
-            heap.push({a[i] + a[i + 1], i});
+        if (sorted == n - 1) return 0;
+        
+        int remaining = n;
+        vector<int> prev(n), next(n);
+        for (int i = 0; i < n; ++i) {
+            prev[i] = i - 1;
+            next[i] = i + 1;
         }
-
-        int rest = 0;
-        for (int i = 0; i < n - 1; i++) {
-            if (a[i] > a[i + 1]) rest++;
-        }
-
-        auto bad = [&](int x, int y) -> bool {
-            return a[x] > a[y];
-        };
-
-        int ans = 0;
-
-        while (rest > 0) {
-            auto [v, i] = heap.top(); heap.pop();
-
-            int r = right[i];
-            if (r == -1) 
-                continue;                 
-            if (left[r] != i) 
-                continue;            
-            if (a[i] + a[r] != v) 
-                continue;        
-
-            int li = left[i];
-            int rr = right[r];
-
-            if (li != -1 && right[li] == i && bad(li, i)) 
-                rest--;
-            if (bad(i, r)) 
-                rest--;
-            if (rr != -1 && left[rr] == r && bad(r, rr)) 
-                rest--;
-
-            a[i] = v;
-
-            right[i] = rr;
-            if (rr != -1) left[rr] = i;
-            left[r] = right[r] = -1;
-
-
-            if (li != -1 && right[li] == i && bad(li, i)) 
-                rest++;
-            if (rr != -1 && left[rr] == i && bad(i, rr)) 
-                rest++;
-
-            if (li != -1 && right[li] == i) {
-                heap.push({a[li] + a[i], li});
+        
+        while (remaining > 1) {
+            auto [sum, left] = pq.top(); pq.pop();
+            int right = next[left];
+            if (right >= n || removed[left] || removed[right] || arr[left] + arr[right] != sum)
+                continue;
+                
+            int pre = prev[left];
+            int nxt = next[right];
+            
+            if (arr[left] <= arr[right]) sorted--;
+            if (pre != -1 && arr[pre] <= arr[left]) sorted--;
+            if (nxt != n && arr[right] <= arr[nxt]) sorted--;
+            
+            arr[left] += arr[right];
+            removed[right] = true;
+            remaining--;
+            
+            if (pre != -1) {
+                pq.emplace(arr[pre] + arr[left], pre);
+                if (arr[pre] <= arr[left]) sorted++;
+            } else {
+                prev[left] = -1;
             }
-            if (rr != -1 && left[rr] == i) {
-                heap.push({a[i] + a[rr], i});
+            
+            if (nxt != n) {
+                prev[nxt] = left;
+                next[left] = nxt;
+                pq.emplace(arr[left] + arr[nxt], left);
+                if (arr[left] <= arr[nxt]) sorted++;
+            } else {
+                next[left] = n;
             }
-
-            ans++;
+            
+            if (sorted == remaining - 1)
+                return n - remaining;
         }
-
-        return ans;
+        return n;
     }
 };
