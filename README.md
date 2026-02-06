@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2538-minimum-cost-to-make-array-equal](https://github.com/Arnav-Kadu/LC/tree/master/2538-minimum-cost-to-make-array-equal) |
 | [2681-put-marbles-in-bags](https://github.com/Arnav-Kadu/LC/tree/master/2681-put-marbles-in-bags) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/Arnav-Kadu/LC/tree/master/2704-maximum-difference-by-remapping-a-digit) |
+| [2895-minimum-processing-time](https://github.com/Arnav-Kadu/LC/tree/master/2895-minimum-processing-time) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Arnav-Kadu/LC/tree/master/3001-apply-operations-to-maximize-score) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/Arnav-Kadu/LC/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Arnav-Kadu/LC/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
@@ -258,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Arnav-Kadu/LC/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2792-neighboring-bitwise-xor](https://github.com/Arnav-Kadu/LC/tree/master/2792-neighboring-bitwise-xor) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/Arnav-Kadu/LC/tree/master/2888-minimum-index-of-a-valid-split) |
+| [2895-minimum-processing-time](https://github.com/Arnav-Kadu/LC/tree/master/2895-minimum-processing-time) |
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/Arnav-Kadu/LC/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/Arnav-Kadu/LC/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Arnav-Kadu/LC/tree/master/3001-apply-operations-to-maximize-score) |
@@ -517,6 +519,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2681-put-marbles-in-bags](https://github.com/Arnav-Kadu/LC/tree/master/2681-put-marbles-in-bags) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Arnav-Kadu/LC/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/Arnav-Kadu/LC/tree/master/2888-minimum-index-of-a-valid-split) |
+| [2895-minimum-processing-time](https://github.com/Arnav-Kadu/LC/tree/master/2895-minimum-processing-time) |
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/Arnav-Kadu/LC/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Arnav-Kadu/LC/tree/master/3001-apply-operations-to-maximize-score) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/Arnav-Kadu/LC/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
