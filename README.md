@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Arnav-Kadu/LC/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/Arnav-Kadu/LC/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Arnav-Kadu/LC/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
+| [3714-longest-balanced-substring-ii](https://github.com/Arnav-Kadu/LC/tree/master/3714-longest-balanced-substring-ii) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/Arnav-Kadu/LC/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Arnav-Kadu/LC/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Arnav-Kadu/LC/tree/master/3872-find-most-frequent-vowel-and-consonant) |
@@ -145,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Arnav-Kadu/LC/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/Arnav-Kadu/LC/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/Arnav-Kadu/LC/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
+| [3714-longest-balanced-substring-ii](https://github.com/Arnav-Kadu/LC/tree/master/3714-longest-balanced-substring-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/Arnav-Kadu/LC/tree/master/3719-longest-balanced-subarray-i) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/Arnav-Kadu/LC/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Arnav-Kadu/LC/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
@@ -456,6 +458,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Arnav-Kadu/LC/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/Arnav-Kadu/LC/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3643-zero-array-transformation-ii](https://github.com/Arnav-Kadu/LC/tree/master/3643-zero-array-transformation-ii) |
+| [3714-longest-balanced-substring-ii](https://github.com/Arnav-Kadu/LC/tree/master/3714-longest-balanced-substring-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/Arnav-Kadu/LC/tree/master/3719-longest-balanced-subarray-i) |
 ## Depth-First Search
 |  |
