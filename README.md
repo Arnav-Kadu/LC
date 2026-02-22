@@ -332,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0693-binary-number-with-alternating-bits](https://github.com/Arnav-Kadu/LC/tree/master/0693-binary-number-with-alternating-bits) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/Arnav-Kadu/LC/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0828-chalkboard-xor-game](https://github.com/Arnav-Kadu/LC/tree/master/0828-chalkboard-xor-game) |
+| [0868-binary-gap](https://github.com/Arnav-Kadu/LC/tree/master/0868-binary-gap) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Arnav-Kadu/LC/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Arnav-Kadu/LC/tree/master/2308-divide-array-into-equal-pairs) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/Arnav-Kadu/LC/tree/master/2400-minimum-score-after-removals-on-a-tree) |
