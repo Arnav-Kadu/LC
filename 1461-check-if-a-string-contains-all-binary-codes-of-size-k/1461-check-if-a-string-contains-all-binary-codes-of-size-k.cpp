@@ -5,12 +5,10 @@ public:
         if (s.empty() || s.size() < k)
             return false;
 
-        set<int> st;
-        for (auto i = 0; i <= s.length() - k; i++) {
-            string holder = s.substr(i, k);
-            st.insert(atoi(&holder[0]));
+        set<string> st;
+        for (int i = 0; i <= s.length() - k; i++) {
+            st.insert(s.substr(i, k));
         }
-
-        return (st.size() == pow(2, k)) ? true : false;
+        return st.size() == (1 << k);
     }
 };
