@@ -163,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0900-reordered-power-of-2](https://github.com/Arnav-Kadu/LC/tree/master/0900-reordered-power-of-2) |
 | [1160-letter-tile-possibilities](https://github.com/Arnav-Kadu/LC/tree/master/1160-letter-tile-possibilities) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Arnav-Kadu/LC/tree/master/1227-number-of-equivalent-domino-pairs) |
+| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Arnav-Kadu/LC/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1364-tuple-with-same-product](https://github.com/Arnav-Kadu/LC/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/Arnav-Kadu/LC/tree/master/1396-count-servers-that-communicate) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Arnav-Kadu/LC/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
@@ -204,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1293-three-consecutive-odds](https://github.com/Arnav-Kadu/LC/tree/master/1293-three-consecutive-odds) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Arnav-Kadu/LC/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Arnav-Kadu/LC/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
+| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Arnav-Kadu/LC/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1364-tuple-with-same-product](https://github.com/Arnav-Kadu/LC/tree/master/1364-tuple-with-same-product) |
 | [1390-four-divisors](https://github.com/Arnav-Kadu/LC/tree/master/1390-four-divisors) |
 | [1396-count-servers-that-communicate](https://github.com/Arnav-Kadu/LC/tree/master/1396-count-servers-that-communicate) |
@@ -335,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/Arnav-Kadu/LC/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0828-chalkboard-xor-game](https://github.com/Arnav-Kadu/LC/tree/master/0828-chalkboard-xor-game) |
 | [0868-binary-gap](https://github.com/Arnav-Kadu/LC/tree/master/0868-binary-gap) |
+| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Arnav-Kadu/LC/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Arnav-Kadu/LC/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Arnav-Kadu/LC/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Arnav-Kadu/LC/tree/master/2308-divide-array-into-equal-pairs) |
@@ -529,6 +532,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0761-special-binary-string](https://github.com/Arnav-Kadu/LC/tree/master/0761-special-binary-string) |
 | [0900-reordered-power-of-2](https://github.com/Arnav-Kadu/LC/tree/master/0900-reordered-power-of-2) |
 | [1200-minimum-absolute-difference](https://github.com/Arnav-Kadu/LC/tree/master/1200-minimum-absolute-difference) |
+| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Arnav-Kadu/LC/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Arnav-Kadu/LC/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/Arnav-Kadu/LC/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/Arnav-Kadu/LC/tree/master/1877-minimize-maximum-pair-sum-in-array) |
