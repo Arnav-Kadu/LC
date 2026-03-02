@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0768-partition-labels](https://github.com/Arnav-Kadu/LC/tree/master/0768-partition-labels) |
 | [1382-balance-a-binary-search-tree](https://github.com/Arnav-Kadu/LC/tree/master/1382-balance-a-binary-search-tree) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/Arnav-Kadu/LC/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
+| [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Arnav-Kadu/LC/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/Arnav-Kadu/LC/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/Arnav-Kadu/LC/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Arnav-Kadu/LC/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
@@ -216,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/Arnav-Kadu/LC/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Arnav-Kadu/LC/tree/master/1477-product-of-the-last-k-numbers) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Arnav-Kadu/LC/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Arnav-Kadu/LC/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Arnav-Kadu/LC/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Arnav-Kadu/LC/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Arnav-Kadu/LC/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
@@ -440,6 +442,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Arnav-Kadu/LC/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1396-count-servers-that-communicate](https://github.com/Arnav-Kadu/LC/tree/master/1396-count-servers-that-communicate) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Arnav-Kadu/LC/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Arnav-Kadu/LC/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1876-map-of-highest-peak](https://github.com/Arnav-Kadu/LC/tree/master/1876-map-of-highest-peak) |
 | [1895-largest-magic-square](https://github.com/Arnav-Kadu/LC/tree/master/1895-largest-magic-square) |
 | [2145-grid-game](https://github.com/Arnav-Kadu/LC/tree/master/2145-grid-game) |
