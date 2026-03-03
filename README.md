@@ -611,6 +611,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/Arnav-Kadu/LC/tree/master/0067-add-binary) |
+| [0070-climbing-stairs](https://github.com/Arnav-Kadu/LC/tree/master/0070-climbing-stairs) |
 | [0342-power-of-four](https://github.com/Arnav-Kadu/LC/tree/master/0342-power-of-four) |
 | [0368-largest-divisible-subset](https://github.com/Arnav-Kadu/LC/tree/master/0368-largest-divisible-subset) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/Arnav-Kadu/LC/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
@@ -701,6 +702,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/Arnav-Kadu/LC/tree/master/0070-climbing-stairs) |
 | [0085-maximal-rectangle](https://github.com/Arnav-Kadu/LC/tree/master/0085-maximal-rectangle) |
 | [0368-largest-divisible-subset](https://github.com/Arnav-Kadu/LC/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/Arnav-Kadu/LC/tree/master/0416-partition-equal-subset-sum) |
@@ -795,6 +797,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/Arnav-Kadu/LC/tree/master/0070-climbing-stairs) |
 | [1676-minimum-number-of-days-to-eat-n-oranges](https://github.com/Arnav-Kadu/LC/tree/master/1676-minimum-number-of-days-to-eat-n-oranges) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/Arnav-Kadu/LC/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/Arnav-Kadu/LC/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
