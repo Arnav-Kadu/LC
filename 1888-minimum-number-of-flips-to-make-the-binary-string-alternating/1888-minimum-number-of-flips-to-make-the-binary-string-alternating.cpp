@@ -3,7 +3,7 @@ public:
     int minFlips(string s) {
         // we need to find min cost in segment of size n in string of length 2*n that is s+=s;
         int n=s.size();
-        s+=s;
+        // s+=s;
         int type1=0;
         int type2=1;
         int count1=0;
@@ -25,17 +25,17 @@ public:
         int type11=0;
         int type22=1;
         for(int i=n;i<2*n;i++){
-           if(type11!=s[i-n]-'0'){
+           if(type11!=s[(i-n)%n]-'0'){
              count1--;
            }
-           if(type22!=s[i-n]-'0'){
+           if(type22!=s[(i-n)%n]-'0'){
             count2--;
            }
            // removed from previous check current
-           if(type1!=s[i]-'0'){
+           if(type1!=s[i%n]-'0'){
               count1++;
            }
-           if(type2!=s[i]-'0'){
+           if(type2!=s[i%n]-'0'){
             count2++;
            }
            mn1=min(mn1,count1);
