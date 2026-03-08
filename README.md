@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/Arnav-Kadu/LC/tree/master/1784-check-if-binary-string-has-at-most-one-segment-of-ones) |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/Arnav-Kadu/LC/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Arnav-Kadu/LC/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
+| [1980-find-unique-binary-string](https://github.com/Arnav-Kadu/LC/tree/master/1980-find-unique-binary-string) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Arnav-Kadu/LC/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2107-find-unique-binary-string](https://github.com/Arnav-Kadu/LC/tree/master/2107-find-unique-binary-string) |
 | [2115-number-of-unique-good-subsequences](https://github.com/Arnav-Kadu/LC/tree/master/2115-number-of-unique-good-subsequences) |
@@ -126,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/Arnav-Kadu/LC/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1813-maximum-erasure-value](https://github.com/Arnav-Kadu/LC/tree/master/1813-maximum-erasure-value) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Arnav-Kadu/LC/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
+| [1980-find-unique-binary-string](https://github.com/Arnav-Kadu/LC/tree/master/1980-find-unique-binary-string) |
 | [2107-find-unique-binary-string](https://github.com/Arnav-Kadu/LC/tree/master/2107-find-unique-binary-string) |
 | [2169-simple-bank-system](https://github.com/Arnav-Kadu/LC/tree/master/2169-simple-bank-system) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Arnav-Kadu/LC/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
@@ -240,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Arnav-Kadu/LC/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1895-largest-magic-square](https://github.com/Arnav-Kadu/LC/tree/master/1895-largest-magic-square) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/Arnav-Kadu/LC/tree/master/1927-maximum-ascending-subarray-sum) |
+| [1980-find-unique-binary-string](https://github.com/Arnav-Kadu/LC/tree/master/1980-find-unique-binary-string) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Arnav-Kadu/LC/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Arnav-Kadu/LC/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2107-find-unique-binary-string](https://github.com/Arnav-Kadu/LC/tree/master/2107-find-unique-binary-string) |
@@ -668,6 +671,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1160-letter-tile-possibilities](https://github.com/Arnav-Kadu/LC/tree/master/1160-letter-tile-possibilities) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Arnav-Kadu/LC/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Arnav-Kadu/LC/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
+| [1980-find-unique-binary-string](https://github.com/Arnav-Kadu/LC/tree/master/1980-find-unique-binary-string) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Arnav-Kadu/LC/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2107-find-unique-binary-string](https://github.com/Arnav-Kadu/LC/tree/master/2107-find-unique-binary-string) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Arnav-Kadu/LC/tree/master/2456-construct-smallest-number-from-di-string) |
