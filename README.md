@@ -487,6 +487,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2145-grid-game](https://github.com/Arnav-Kadu/LC/tree/master/2145-grid-game) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/Arnav-Kadu/LC/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2538-minimum-cost-to-make-array-equal](https://github.com/Arnav-Kadu/LC/tree/master/2538-minimum-cost-to-make-array-equal) |
+| [3129-find-all-possible-stable-binary-arrays-i](https://github.com/Arnav-Kadu/LC/tree/master/3129-find-all-possible-stable-binary-arrays-i) |
 | [3271-count-the-number-of-houses-at-a-certain-distance-i](https://github.com/Arnav-Kadu/LC/tree/master/3271-count-the-number-of-houses-at-a-certain-distance-i) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/Arnav-Kadu/LC/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Arnav-Kadu/LC/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
@@ -739,6 +740,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/Arnav-Kadu/LC/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/Arnav-Kadu/LC/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2652-count-number-of-possible-root-nodes](https://github.com/Arnav-Kadu/LC/tree/master/2652-count-number-of-possible-root-nodes) |
+| [3129-find-all-possible-stable-binary-arrays-i](https://github.com/Arnav-Kadu/LC/tree/master/3129-find-all-possible-stable-binary-arrays-i) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/Arnav-Kadu/LC/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Arnav-Kadu/LC/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/Arnav-Kadu/LC/tree/master/3243-count-the-number-of-powerful-integers) |
