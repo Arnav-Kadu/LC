@@ -101,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3001-apply-operations-to-maximize-score](https://github.com/Arnav-Kadu/LC/tree/master/3001-apply-operations-to-maximize-score) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/Arnav-Kadu/LC/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Arnav-Kadu/LC/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
+| [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Arnav-Kadu/LC/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3354-replace-question-marks-in-string-to-minimize-its-value](https://github.com/Arnav-Kadu/LC/tree/master/3354-replace-question-marks-in-string-to-minimize-its-value) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/Arnav-Kadu/LC/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Arnav-Kadu/LC/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
@@ -303,6 +304,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Arnav-Kadu/LC/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Arnav-Kadu/LC/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3227-find-missing-and-repeated-values](https://github.com/Arnav-Kadu/LC/tree/master/3227-find-missing-and-repeated-values) |
+| [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Arnav-Kadu/LC/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/Arnav-Kadu/LC/tree/master/3314-construct-the-minimum-bitwise-array-i) |
 | [3315-construct-the-minimum-bitwise-array-ii](https://github.com/Arnav-Kadu/LC/tree/master/3315-construct-the-minimum-bitwise-array-ii) |
 | [3331-minimum-operations-to-exceed-threshold-value-i](https://github.com/Arnav-Kadu/LC/tree/master/3331-minimum-operations-to-exceed-threshold-value-i) |
@@ -433,6 +435,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Arnav-Kadu/LC/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2681-put-marbles-in-bags](https://github.com/Arnav-Kadu/LC/tree/master/2681-put-marbles-in-bags) |
 | [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/Arnav-Kadu/LC/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
+| [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Arnav-Kadu/LC/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Arnav-Kadu/LC/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3354-replace-question-marks-in-string-to-minimize-its-value](https://github.com/Arnav-Kadu/LC/tree/master/3354-replace-question-marks-in-string-to-minimize-its-value) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Arnav-Kadu/LC/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
@@ -657,6 +660,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3201-distribute-candies-among-children-ii](https://github.com/Arnav-Kadu/LC/tree/master/3201-distribute-candies-among-children-ii) |
 | [3227-find-missing-and-repeated-values](https://github.com/Arnav-Kadu/LC/tree/master/3227-find-missing-and-repeated-values) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/Arnav-Kadu/LC/tree/master/3243-count-the-number-of-powerful-integers) |
+| [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Arnav-Kadu/LC/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3462-vowels-game-in-a-string](https://github.com/Arnav-Kadu/LC/tree/master/3462-vowels-game-in-a-string) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/Arnav-Kadu/LC/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3548-find-the-count-of-good-integers](https://github.com/Arnav-Kadu/LC/tree/master/3548-find-the-count-of-good-integers) |
@@ -772,6 +776,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2665-minimum-time-to-repair-cars](https://github.com/Arnav-Kadu/LC/tree/master/2665-minimum-time-to-repair-cars) |
 | [2690-house-robber-iv](https://github.com/Arnav-Kadu/LC/tree/master/2690-house-robber-iv) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Arnav-Kadu/LC/tree/master/2699-count-the-number-of-fair-pairs) |
+| [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Arnav-Kadu/LC/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/Arnav-Kadu/LC/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3453-separate-squares-i](https://github.com/Arnav-Kadu/LC/tree/master/3453-separate-squares-i) |
 | [3454-separate-squares-ii](https://github.com/Arnav-Kadu/LC/tree/master/3454-separate-squares-ii) |
