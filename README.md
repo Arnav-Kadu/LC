@@ -298,6 +298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/Arnav-Kadu/LC/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/Arnav-Kadu/LC/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
 | [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/Arnav-Kadu/LC/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
+| [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Arnav-Kadu/LC/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/Arnav-Kadu/LC/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/Arnav-Kadu/LC/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Arnav-Kadu/LC/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
@@ -471,6 +472,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Arnav-Kadu/LC/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2685-first-completely-painted-row-or-column](https://github.com/Arnav-Kadu/LC/tree/master/2685-first-completely-painted-row-or-column) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/Arnav-Kadu/LC/tree/master/2764-maximum-number-of-fish-in-a-grid) |
+| [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Arnav-Kadu/LC/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3227-find-missing-and-repeated-values](https://github.com/Arnav-Kadu/LC/tree/master/3227-find-missing-and-repeated-values) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Arnav-Kadu/LC/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Arnav-Kadu/LC/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
@@ -495,6 +497,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2145-grid-game](https://github.com/Arnav-Kadu/LC/tree/master/2145-grid-game) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/Arnav-Kadu/LC/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2538-minimum-cost-to-make-array-equal](https://github.com/Arnav-Kadu/LC/tree/master/2538-minimum-cost-to-make-array-equal) |
+| [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Arnav-Kadu/LC/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/Arnav-Kadu/LC/tree/master/3129-find-all-possible-stable-binary-arrays-i) |
 | [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/Arnav-Kadu/LC/tree/master/3130-find-all-possible-stable-binary-arrays-ii) |
 | [3271-count-the-number-of-houses-at-a-certain-distance-i](https://github.com/Arnav-Kadu/LC/tree/master/3271-count-the-number-of-houses-at-a-certain-distance-i) |
