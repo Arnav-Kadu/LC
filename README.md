@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3447-clear-digits](https://github.com/Arnav-Kadu/LC/tree/master/3447-clear-digits) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Arnav-Kadu/LC/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3462-vowels-game-in-a-string](https://github.com/Arnav-Kadu/LC/tree/master/3462-vowels-game-in-a-string) |
+| [3474-lexicographically-smallest-generated-string](https://github.com/Arnav-Kadu/LC/tree/master/3474-lexicographically-smallest-generated-string) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Arnav-Kadu/LC/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Arnav-Kadu/LC/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/Arnav-Kadu/LC/tree/master/3630-total-characters-in-string-after-transformations-ii) |
@@ -106,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3354-replace-question-marks-in-string-to-minimize-its-value](https://github.com/Arnav-Kadu/LC/tree/master/3354-replace-question-marks-in-string-to-minimize-its-value) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/Arnav-Kadu/LC/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Arnav-Kadu/LC/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
+| [3474-lexicographically-smallest-generated-string](https://github.com/Arnav-Kadu/LC/tree/master/3474-lexicographically-smallest-generated-string) |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/Arnav-Kadu/LC/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/Arnav-Kadu/LC/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/Arnav-Kadu/LC/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
@@ -971,4 +973,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/Arnav-Kadu/LC/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
+## String Matching
+|  |
+| ------- |
+| [3474-lexicographically-smallest-generated-string](https://github.com/Arnav-Kadu/LC/tree/master/3474-lexicographically-smallest-generated-string) |
 <!---LeetCode Topics End-->
