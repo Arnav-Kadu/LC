@@ -2,10 +2,10 @@ class Solution {
 public:
     int maxWalls(vector<int>& robots, vector<int>& distance, vector<int>& walls) {
         // kya question hai bc
-        vector<vector<int>>val;
         int n=robots.size();
+        vector<vector<int>>val(n);
         for(int i=0;i<n;i++){
-            val.push_back({robots[i],distance[i]});
+            val[i]={robots[i],distance[i]};
         }
         sort(val.begin(),val.end());
         sort(walls.begin(),walls.end());
