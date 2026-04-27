@@ -991,6 +991,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/Arnav-Kadu/LC/tree/master/0547-number-of-provinces) |
+| [0684-redundant-connection](https://github.com/Arnav-Kadu/LC/tree/master/0684-redundant-connection) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/Arnav-Kadu/LC/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/Arnav-Kadu/LC/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/Arnav-Kadu/LC/tree/master/3650-minimum-cost-path-with-edge-reversals) |
@@ -1010,6 +1011,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/Arnav-Kadu/LC/tree/master/0547-number-of-provinces) |
+| [0684-redundant-connection](https://github.com/Arnav-Kadu/LC/tree/master/0684-redundant-connection) |
 | [0721-accounts-merge](https://github.com/Arnav-Kadu/LC/tree/master/0721-accounts-merge) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/Arnav-Kadu/LC/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/Arnav-Kadu/LC/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
