@@ -409,6 +409,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0407-trapping-rain-water-ii](https://github.com/Arnav-Kadu/LC/tree/master/0407-trapping-rain-water-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Arnav-Kadu/LC/tree/master/0417-pacific-atlantic-water-flow) |
+| [0547-number-of-provinces](https://github.com/Arnav-Kadu/LC/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/Arnav-Kadu/LC/tree/master/0684-redundant-connection) |
 | [0794-swim-in-rising-water](https://github.com/Arnav-Kadu/LC/tree/master/0794-swim-in-rising-water) |
 | [0820-find-eventual-safe-states](https://github.com/Arnav-Kadu/LC/tree/master/0820-find-eventual-safe-states) |
@@ -543,6 +544,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0386-lexicographical-numbers](https://github.com/Arnav-Kadu/LC/tree/master/0386-lexicographical-numbers) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Arnav-Kadu/LC/tree/master/0417-pacific-atlantic-water-flow) |
+| [0547-number-of-provinces](https://github.com/Arnav-Kadu/LC/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/Arnav-Kadu/LC/tree/master/0684-redundant-connection) |
 | [0794-swim-in-rising-water](https://github.com/Arnav-Kadu/LC/tree/master/0794-swim-in-rising-water) |
 | [0820-find-eventual-safe-states](https://github.com/Arnav-Kadu/LC/tree/master/0820-find-eventual-safe-states) |
@@ -982,6 +984,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph Theory
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/Arnav-Kadu/LC/tree/master/0547-number-of-provinces) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/Arnav-Kadu/LC/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/Arnav-Kadu/LC/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/Arnav-Kadu/LC/tree/master/3650-minimum-cost-path-with-edge-reversals) |
@@ -1000,6 +1003,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/Arnav-Kadu/LC/tree/master/0547-number-of-provinces) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/Arnav-Kadu/LC/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/Arnav-Kadu/LC/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 ## Minimum Spanning Tree
