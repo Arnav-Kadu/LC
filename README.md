@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/Arnav-Kadu/LC/tree/master/0721-accounts-merge) |
 | [0761-special-binary-string](https://github.com/Arnav-Kadu/LC/tree/master/0761-special-binary-string) |
 | [0768-partition-labels](https://github.com/Arnav-Kadu/LC/tree/master/0768-partition-labels) |
+| [0839-similar-string-groups](https://github.com/Arnav-Kadu/LC/tree/master/0839-similar-string-groups) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Arnav-Kadu/LC/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1160-letter-tile-possibilities](https://github.com/Arnav-Kadu/LC/tree/master/1160-letter-tile-possibilities) |
 | [1170-shortest-common-supersequence](https://github.com/Arnav-Kadu/LC/tree/master/1170-shortest-common-supersequence) |
@@ -123,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0594-longest-harmonious-subsequence](https://github.com/Arnav-Kadu/LC/tree/master/0594-longest-harmonious-subsequence) |
 | [0721-accounts-merge](https://github.com/Arnav-Kadu/LC/tree/master/0721-accounts-merge) |
 | [0768-partition-labels](https://github.com/Arnav-Kadu/LC/tree/master/0768-partition-labels) |
+| [0839-similar-string-groups](https://github.com/Arnav-Kadu/LC/tree/master/0839-similar-string-groups) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Arnav-Kadu/LC/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0900-reordered-power-of-2](https://github.com/Arnav-Kadu/LC/tree/master/0900-reordered-power-of-2) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Arnav-Kadu/LC/tree/master/0905-length-of-longest-fibonacci-subsequence) |
@@ -221,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-find-smallest-letter-greater-than-target](https://github.com/Arnav-Kadu/LC/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0794-swim-in-rising-water](https://github.com/Arnav-Kadu/LC/tree/master/0794-swim-in-rising-water) |
 | [0828-chalkboard-xor-game](https://github.com/Arnav-Kadu/LC/tree/master/0828-chalkboard-xor-game) |
+| [0839-similar-string-groups](https://github.com/Arnav-Kadu/LC/tree/master/0839-similar-string-groups) |
 | [0854-making-a-large-island](https://github.com/Arnav-Kadu/LC/tree/master/0854-making-a-large-island) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Arnav-Kadu/LC/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Arnav-Kadu/LC/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
@@ -418,6 +421,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/Arnav-Kadu/LC/tree/master/0721-accounts-merge) |
 | [0794-swim-in-rising-water](https://github.com/Arnav-Kadu/LC/tree/master/0794-swim-in-rising-water) |
 | [0820-find-eventual-safe-states](https://github.com/Arnav-Kadu/LC/tree/master/0820-find-eventual-safe-states) |
+| [0839-similar-string-groups](https://github.com/Arnav-Kadu/LC/tree/master/0839-similar-string-groups) |
 | [0854-making-a-large-island](https://github.com/Arnav-Kadu/LC/tree/master/0854-making-a-large-island) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Arnav-Kadu/LC/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0945-snakes-and-ladders](https://github.com/Arnav-Kadu/LC/tree/master/0945-snakes-and-ladders) |
@@ -554,6 +558,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/Arnav-Kadu/LC/tree/master/0721-accounts-merge) |
 | [0794-swim-in-rising-water](https://github.com/Arnav-Kadu/LC/tree/master/0794-swim-in-rising-water) |
 | [0820-find-eventual-safe-states](https://github.com/Arnav-Kadu/LC/tree/master/0820-find-eventual-safe-states) |
+| [0839-similar-string-groups](https://github.com/Arnav-Kadu/LC/tree/master/0839-similar-string-groups) |
 | [0854-making-a-large-island](https://github.com/Arnav-Kadu/LC/tree/master/0854-making-a-large-island) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Arnav-Kadu/LC/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/Arnav-Kadu/LC/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
@@ -1018,6 +1023,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/Arnav-Kadu/LC/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/Arnav-Kadu/LC/tree/master/0684-redundant-connection) |
 | [0721-accounts-merge](https://github.com/Arnav-Kadu/LC/tree/master/0721-accounts-merge) |
+| [0839-similar-string-groups](https://github.com/Arnav-Kadu/LC/tree/master/0839-similar-string-groups) |
 | [1579-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/Arnav-Kadu/LC/tree/master/1579-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 | [1697-checking-existence-of-edge-length-limited-paths](https://github.com/Arnav-Kadu/LC/tree/master/1697-checking-existence-of-edge-length-limited-paths) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/Arnav-Kadu/LC/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
