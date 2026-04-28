@@ -255,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Arnav-Kadu/LC/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Arnav-Kadu/LC/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Arnav-Kadu/LC/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1631-path-with-minimum-effort](https://github.com/Arnav-Kadu/LC/tree/master/1631-path-with-minimum-effort) |
 | [1656-count-good-triplets](https://github.com/Arnav-Kadu/LC/tree/master/1656-count-good-triplets) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/Arnav-Kadu/LC/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1697-checking-existence-of-edge-length-limited-paths](https://github.com/Arnav-Kadu/LC/tree/master/1697-checking-existence-of-edge-length-limited-paths) |
@@ -440,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/Arnav-Kadu/LC/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Arnav-Kadu/LC/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1558-course-schedule-iv](https://github.com/Arnav-Kadu/LC/tree/master/1558-course-schedule-iv) |
+| [1631-path-with-minimum-effort](https://github.com/Arnav-Kadu/LC/tree/master/1631-path-with-minimum-effort) |
 | [1876-map-of-highest-peak](https://github.com/Arnav-Kadu/LC/tree/master/1876-map-of-highest-peak) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/Arnav-Kadu/LC/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/Arnav-Kadu/LC/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
@@ -473,6 +475,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0407-trapping-rain-water-ii](https://github.com/Arnav-Kadu/LC/tree/master/0407-trapping-rain-water-ii) |
 | [0794-swim-in-rising-water](https://github.com/Arnav-Kadu/LC/tree/master/0794-swim-in-rising-water) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Arnav-Kadu/LC/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1631-path-with-minimum-effort](https://github.com/Arnav-Kadu/LC/tree/master/1631-path-with-minimum-effort) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Arnav-Kadu/LC/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2413-smallest-number-in-infinite-set](https://github.com/Arnav-Kadu/LC/tree/master/2413-smallest-number-in-infinite-set) |
 | [2434-design-a-number-container-system](https://github.com/Arnav-Kadu/LC/tree/master/2434-design-a-number-container-system) |
@@ -505,6 +508,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Arnav-Kadu/LC/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Arnav-Kadu/LC/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Arnav-Kadu/LC/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
+| [1631-path-with-minimum-effort](https://github.com/Arnav-Kadu/LC/tree/master/1631-path-with-minimum-effort) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/Arnav-Kadu/LC/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1876-map-of-highest-peak](https://github.com/Arnav-Kadu/LC/tree/master/1876-map-of-highest-peak) |
 | [1895-largest-magic-square](https://github.com/Arnav-Kadu/LC/tree/master/1895-largest-magic-square) |
@@ -579,6 +583,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Arnav-Kadu/LC/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/Arnav-Kadu/LC/tree/master/1396-count-servers-that-communicate) |
 | [1558-course-schedule-iv](https://github.com/Arnav-Kadu/LC/tree/master/1558-course-schedule-iv) |
+| [1631-path-with-minimum-effort](https://github.com/Arnav-Kadu/LC/tree/master/1631-path-with-minimum-effort) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/Arnav-Kadu/LC/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [1840-minimize-hamming-distance-after-swap-operations](https://github.com/Arnav-Kadu/LC/tree/master/1840-minimize-hamming-distance-after-swap-operations) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/Arnav-Kadu/LC/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
@@ -853,6 +858,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Arnav-Kadu/LC/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Arnav-Kadu/LC/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Arnav-Kadu/LC/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1631-path-with-minimum-effort](https://github.com/Arnav-Kadu/LC/tree/master/1631-path-with-minimum-effort) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/Arnav-Kadu/LC/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Arnav-Kadu/LC/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Arnav-Kadu/LC/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
@@ -1045,6 +1051,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0990-satisfiability-of-equality-equations](https://github.com/Arnav-Kadu/LC/tree/master/0990-satisfiability-of-equality-equations) |
 | [1202-smallest-string-with-swaps](https://github.com/Arnav-Kadu/LC/tree/master/1202-smallest-string-with-swaps) |
 | [1579-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/Arnav-Kadu/LC/tree/master/1579-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
+| [1631-path-with-minimum-effort](https://github.com/Arnav-Kadu/LC/tree/master/1631-path-with-minimum-effort) |
 | [1697-checking-existence-of-edge-length-limited-paths](https://github.com/Arnav-Kadu/LC/tree/master/1697-checking-existence-of-edge-length-limited-paths) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/Arnav-Kadu/LC/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/Arnav-Kadu/LC/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
