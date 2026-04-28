@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0761-special-binary-string](https://github.com/Arnav-Kadu/LC/tree/master/0761-special-binary-string) |
 | [0768-partition-labels](https://github.com/Arnav-Kadu/LC/tree/master/0768-partition-labels) |
 | [0839-similar-string-groups](https://github.com/Arnav-Kadu/LC/tree/master/0839-similar-string-groups) |
+| [0990-satisfiability-of-equality-equations](https://github.com/Arnav-Kadu/LC/tree/master/0990-satisfiability-of-equality-equations) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Arnav-Kadu/LC/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1160-letter-tile-possibilities](https://github.com/Arnav-Kadu/LC/tree/master/1160-letter-tile-possibilities) |
 | [1170-shortest-common-supersequence](https://github.com/Arnav-Kadu/LC/tree/master/1170-shortest-common-supersequence) |
@@ -232,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Arnav-Kadu/LC/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0945-snakes-and-ladders](https://github.com/Arnav-Kadu/LC/tree/master/0945-snakes-and-ladders) |
 | [0952-largest-component-size-by-common-factor](https://github.com/Arnav-Kadu/LC/tree/master/0952-largest-component-size-by-common-factor) |
+| [0990-satisfiability-of-equality-equations](https://github.com/Arnav-Kadu/LC/tree/master/0990-satisfiability-of-equality-equations) |
 | [1020-longest-turbulent-subarray](https://github.com/Arnav-Kadu/LC/tree/master/1020-longest-turbulent-subarray) |
 | [1200-minimum-absolute-difference](https://github.com/Arnav-Kadu/LC/tree/master/1200-minimum-absolute-difference) |
 | [1202-smallest-string-with-swaps](https://github.com/Arnav-Kadu/LC/tree/master/1202-smallest-string-with-swaps) |
@@ -1014,6 +1016,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0547-number-of-provinces](https://github.com/Arnav-Kadu/LC/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/Arnav-Kadu/LC/tree/master/0684-redundant-connection) |
+| [0990-satisfiability-of-equality-equations](https://github.com/Arnav-Kadu/LC/tree/master/0990-satisfiability-of-equality-equations) |
 | [1579-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/Arnav-Kadu/LC/tree/master/1579-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 | [1697-checking-existence-of-edge-length-limited-paths](https://github.com/Arnav-Kadu/LC/tree/master/1697-checking-existence-of-edge-length-limited-paths) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/Arnav-Kadu/LC/tree/master/2976-minimum-cost-to-convert-string-i) |
@@ -1039,6 +1042,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/Arnav-Kadu/LC/tree/master/0721-accounts-merge) |
 | [0839-similar-string-groups](https://github.com/Arnav-Kadu/LC/tree/master/0839-similar-string-groups) |
 | [0952-largest-component-size-by-common-factor](https://github.com/Arnav-Kadu/LC/tree/master/0952-largest-component-size-by-common-factor) |
+| [0990-satisfiability-of-equality-equations](https://github.com/Arnav-Kadu/LC/tree/master/0990-satisfiability-of-equality-equations) |
 | [1202-smallest-string-with-swaps](https://github.com/Arnav-Kadu/LC/tree/master/1202-smallest-string-with-swaps) |
 | [1579-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/Arnav-Kadu/LC/tree/master/1579-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 | [1697-checking-existence-of-edge-length-limited-paths](https://github.com/Arnav-Kadu/LC/tree/master/1697-checking-existence-of-edge-length-limited-paths) |
