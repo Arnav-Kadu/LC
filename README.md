@@ -274,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/Arnav-Kadu/LC/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Arnav-Kadu/LC/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1895-largest-magic-square](https://github.com/Arnav-Kadu/LC/tree/master/1895-largest-magic-square) |
+| [1914-cyclically-rotating-a-grid](https://github.com/Arnav-Kadu/LC/tree/master/1914-cyclically-rotating-a-grid) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/Arnav-Kadu/LC/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1980-find-unique-binary-string](https://github.com/Arnav-Kadu/LC/tree/master/1980-find-unique-binary-string) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Arnav-Kadu/LC/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
@@ -515,6 +516,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1727-largest-submatrix-with-rearrangements](https://github.com/Arnav-Kadu/LC/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1876-map-of-highest-peak](https://github.com/Arnav-Kadu/LC/tree/master/1876-map-of-highest-peak) |
 | [1895-largest-magic-square](https://github.com/Arnav-Kadu/LC/tree/master/1895-largest-magic-square) |
+| [1914-cyclically-rotating-a-grid](https://github.com/Arnav-Kadu/LC/tree/master/1914-cyclically-rotating-a-grid) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Arnav-Kadu/LC/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2145-grid-game](https://github.com/Arnav-Kadu/LC/tree/master/2145-grid-game) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Arnav-Kadu/LC/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -673,6 +675,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/Arnav-Kadu/LC/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/Arnav-Kadu/LC/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/Arnav-Kadu/LC/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
+| [1914-cyclically-rotating-a-grid](https://github.com/Arnav-Kadu/LC/tree/master/1914-cyclically-rotating-a-grid) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Arnav-Kadu/LC/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2075-decode-the-slanted-ciphertext](https://github.com/Arnav-Kadu/LC/tree/master/2075-decode-the-slanted-ciphertext) |
 | [2169-simple-bank-system](https://github.com/Arnav-Kadu/LC/tree/master/2169-simple-bank-system) |
