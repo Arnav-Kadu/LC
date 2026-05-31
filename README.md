@@ -128,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Arnav-Kadu/LC/tree/master/0001-two-sum) |
 | [0073-set-matrix-zeroes](https://github.com/Arnav-Kadu/LC/tree/master/0073-set-matrix-zeroes) |
 | [0594-longest-harmonious-subsequence](https://github.com/Arnav-Kadu/LC/tree/master/0594-longest-harmonious-subsequence) |
 | [0721-accounts-merge](https://github.com/Arnav-Kadu/LC/tree/master/0721-accounts-merge) |
@@ -220,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Arnav-Kadu/LC/tree/master/0001-two-sum) |
 | [0048-rotate-image](https://github.com/Arnav-Kadu/LC/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/Arnav-Kadu/LC/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/Arnav-Kadu/LC/tree/master/0075-sort-colors) |
