@@ -125,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/Arnav-Kadu/LC/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/Arnav-Kadu/LC/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Arnav-Kadu/LC/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
+| [3691-maximum-total-subarray-value-ii](https://github.com/Arnav-Kadu/LC/tree/master/3691-maximum-total-subarray-value-ii) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/Arnav-Kadu/LC/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 ## Hash Table
 |  |
@@ -401,6 +402,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/Arnav-Kadu/LC/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/Arnav-Kadu/LC/tree/master/3661-maximum-walls-destroyed-by-robots) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/Arnav-Kadu/LC/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
+| [3691-maximum-total-subarray-value-ii](https://github.com/Arnav-Kadu/LC/tree/master/3691-maximum-total-subarray-value-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/Arnav-Kadu/LC/tree/master/3719-longest-balanced-subarray-i) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/Arnav-Kadu/LC/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/Arnav-Kadu/LC/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
@@ -515,6 +517,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Arnav-Kadu/LC/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Arnav-Kadu/LC/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/Arnav-Kadu/LC/tree/master/3650-minimum-cost-path-with-edge-reversals) |
+| [3691-maximum-total-subarray-value-ii](https://github.com/Arnav-Kadu/LC/tree/master/3691-maximum-total-subarray-value-ii) |
 ## Matrix
 |  |
 | ------- |
@@ -956,6 +959,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1622-fancy-sequence](https://github.com/Arnav-Kadu/LC/tree/master/1622-fancy-sequence) |
 | [3423-maximum-sum-of-subsequence-with-non-adjacent-elements](https://github.com/Arnav-Kadu/LC/tree/master/3423-maximum-sum-of-subsequence-with-non-adjacent-elements) |
 | [3454-separate-squares-ii](https://github.com/Arnav-Kadu/LC/tree/master/3454-separate-squares-ii) |
+| [3691-maximum-total-subarray-value-ii](https://github.com/Arnav-Kadu/LC/tree/master/3691-maximum-total-subarray-value-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/Arnav-Kadu/LC/tree/master/3719-longest-balanced-subarray-i) |
 | [3791-fruits-into-baskets-iii](https://github.com/Arnav-Kadu/LC/tree/master/3791-fruits-into-baskets-iii) |
 ## Number Theory
