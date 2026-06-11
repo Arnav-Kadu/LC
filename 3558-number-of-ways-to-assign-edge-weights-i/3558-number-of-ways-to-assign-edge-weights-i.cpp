@@ -33,9 +33,9 @@ public:
             for (int i = 0; i < sz; i++) {
                 auto top = q.front();
                 q.pop();
-                vis[top] = 1;
                 for (auto next : adj[top]) {
                     if (vis[next] == -1) {
+                        vis[next] = 1;
                         q.push(next);
                     }
                 }
