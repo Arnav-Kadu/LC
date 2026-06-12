@@ -382,6 +382,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/Arnav-Kadu/LC/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/Arnav-Kadu/LC/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3548-equal-sum-grid-partition-ii](https://github.com/Arnav-Kadu/LC/tree/master/3548-equal-sum-grid-partition-ii) |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Arnav-Kadu/LC/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Arnav-Kadu/LC/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/Arnav-Kadu/LC/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/Arnav-Kadu/LC/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
@@ -437,6 +438,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3315-construct-the-minimum-bitwise-array-ii](https://github.com/Arnav-Kadu/LC/tree/master/3315-construct-the-minimum-bitwise-array-ii) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/Arnav-Kadu/LC/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Arnav-Kadu/LC/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Arnav-Kadu/LC/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 ## Brainteaser
 |  |
 | ------- |
@@ -625,6 +627,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/Arnav-Kadu/LC/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2793-count-the-number-of-complete-components](https://github.com/Arnav-Kadu/LC/tree/master/2793-count-the-number-of-complete-components) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/Arnav-Kadu/LC/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Arnav-Kadu/LC/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3675-maximize-sum-of-weights-after-edge-removals](https://github.com/Arnav-Kadu/LC/tree/master/3675-maximize-sum-of-weights-after-edge-removals) |
 ## Union Find
 |  |
@@ -786,6 +789,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/Arnav-Kadu/LC/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3548-find-the-count-of-good-integers](https://github.com/Arnav-Kadu/LC/tree/master/3548-find-the-count-of-good-integers) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/Arnav-Kadu/LC/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Arnav-Kadu/LC/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Arnav-Kadu/LC/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/Arnav-Kadu/LC/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/Arnav-Kadu/LC/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
@@ -824,6 +828,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2564-most-profitable-path-in-a-tree](https://github.com/Arnav-Kadu/LC/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2652-count-number-of-possible-root-nodes](https://github.com/Arnav-Kadu/LC/tree/master/2652-count-number-of-possible-root-nodes) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/Arnav-Kadu/LC/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Arnav-Kadu/LC/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3675-maximize-sum-of-weights-after-edge-removals](https://github.com/Arnav-Kadu/LC/tree/master/3675-maximize-sum-of-weights-after-edge-removals) |
 ## Binary Tree
 |  |
@@ -891,6 +896,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3423-maximum-sum-of-subsequence-with-non-adjacent-elements](https://github.com/Arnav-Kadu/LC/tree/master/3423-maximum-sum-of-subsequence-with-non-adjacent-elements) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/Arnav-Kadu/LC/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3472-longest-palindromic-subsequence-after-at-most-k-operations](https://github.com/Arnav-Kadu/LC/tree/master/3472-longest-palindromic-subsequence-after-at-most-k-operations) |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Arnav-Kadu/LC/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Arnav-Kadu/LC/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/Arnav-Kadu/LC/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3640-trionic-array-ii](https://github.com/Arnav-Kadu/LC/tree/master/3640-trionic-array-ii) |
