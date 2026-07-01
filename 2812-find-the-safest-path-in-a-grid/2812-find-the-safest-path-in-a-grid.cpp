@@ -1,6 +1,6 @@
 class Solution {
-vector<int>delrow={0,-1,0,1};
-vector<int>delcol={-1,0,1,0};
+    vector<int> delrow = {0, -1, 0, 1};
+    vector<int> delcol = {-1, 0, 1, 0};
 
 public:
     int maximumSafenessFactor(vector<vector<int>>& grid) {
@@ -40,56 +40,37 @@ public:
             }
         }
 
-        auto check = [&](int mid) {
-            vector<vector<int>>vis(n, vector<int>(n, 0));
-            queue<pair<int,int>>q1;
+        priority_queue<pair<int, pair<int, int>>> pq;
+        vector<vector<int>> vis(n, vector<int>(n, 0));
 
-            if (compute[0][0] < mid) {
-                return false;
+        pq.push({compute[0][0], {0, 0}});
+        vis[0][0] = 1;
+
+        while (!pq.empty()) {
+            auto [safe, pos] = pq.top();
+            pq.pop();
+
+            int x = pos.first;
+            int y = pos.second;
+
+            if (x == n - 1 && y == n - 1) {
+                return safe;
             }
 
-            q1.push({0,0});
-            vis[0][0] = 1;
+            for (int i = 0; i < 4; i++) {
+                int nx = x + delrow[i];
+                int ny = y + delcol[i];
 
-            while (!q1.empty()) {
-                auto [x,y] = q1.front();
-                q1.pop();
-
-                if (x == n-1 && y == n-1) {
-                    return true;
+                if (nx < 0 || ny < 0 || nx >= n || ny >= n) {
+                    continue;
                 }
 
-                for (int i = 0; i < 4; i++) {
-                    int nx = x + delrow[i];
-                    int ny = y + delcol[i];
-
-                    if (nx < 0 || ny < 0 || nx >= n || ny >= n) {
-                        continue;
-                    }
-
-                    if (!vis[nx][ny] && compute[nx][ny] >= mid) {
-                        vis[nx][ny] = 1;
-                        q1.push({nx, ny});
-                    }
+                if (!vis[nx][ny]) {
+                    vis[nx][ny] = 1;
+                    pq.push({min(safe, compute[nx][ny]), {nx, ny}});
                 }
-            }
-
-            return false;
-        };
-
-        int l = 0, r = n * n, ans = 0;
-
-        while (l <= r) {
-            int mid = l + (r - l) / 2;
-
-            if (check(mid)) {
-                ans = mid;
-                l = mid + 1;
-            } else {
-                r = mid - 1;
             }
         }
-
-        return ans;
+        return 0;
     }
 };
