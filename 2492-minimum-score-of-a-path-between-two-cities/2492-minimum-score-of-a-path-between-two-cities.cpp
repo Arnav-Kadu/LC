@@ -9,14 +9,12 @@ public:
             adj[u].push_back({v, cost});
             adj[v].push_back({u, cost});
         }
-        queue<pair<int, int>> q;
+        queue<int> q;
         vector<int> vis(n + 1, 0);
-        q.push({0, 1});
+        q.push(1);
         vis[1] = 1;
         while (!q.empty()) {
-            auto top = q.front();
-            int cost = top.first;
-            int node = top.second;
+            auto node = q.front();
             vis[node] = 1;
             q.pop();
             for (auto next : adj[node]) {
@@ -24,7 +22,7 @@ public:
                     continue;
                 }
                 // cout<<next.first<<" "<<next.second<<endl;
-                q.push({next.second, next.first});
+                q.push(next.first);
                 ans = min(next.second, ans);
             }
         }
