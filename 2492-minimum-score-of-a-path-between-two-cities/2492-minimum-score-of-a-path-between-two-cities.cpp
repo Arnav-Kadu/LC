@@ -2,7 +2,7 @@ class Solution {
 public:
     int minScore(int n, vector<vector<int>>& roads) {
         int ans = INT_MAX;
-        vector<vector<pair<int, int>>> adj(1e5 + 10);
+        vector<vector<pair<int, int>>> adj(n+1);
         for (auto road : roads) {
             int u, v, cost;
             u = road[0], v = road[1], cost = road[2];
