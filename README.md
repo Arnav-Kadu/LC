@@ -259,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1202-smallest-string-with-swaps](https://github.com/Arnav-Kadu/LC/tree/master/1202-smallest-string-with-swaps) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Arnav-Kadu/LC/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1293-three-consecutive-odds](https://github.com/Arnav-Kadu/LC/tree/master/1293-three-consecutive-odds) |
+| [1301-number-of-paths-with-max-score](https://github.com/Arnav-Kadu/LC/tree/master/1301-number-of-paths-with-max-score) |
 | [1306-jump-game-iii](https://github.com/Arnav-Kadu/LC/tree/master/1306-jump-game-iii) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Arnav-Kadu/LC/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1340-jump-game-v](https://github.com/Arnav-Kadu/LC/tree/master/1340-jump-game-v) |
@@ -542,6 +543,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0794-swim-in-rising-water](https://github.com/Arnav-Kadu/LC/tree/master/0794-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/Arnav-Kadu/LC/tree/master/0854-making-a-large-island) |
 | [0945-snakes-and-ladders](https://github.com/Arnav-Kadu/LC/tree/master/0945-snakes-and-ladders) |
+| [1301-number-of-paths-with-max-score](https://github.com/Arnav-Kadu/LC/tree/master/1301-number-of-paths-with-max-score) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Arnav-Kadu/LC/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1396-count-servers-that-communicate](https://github.com/Arnav-Kadu/LC/tree/master/1396-count-servers-that-communicate) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Arnav-Kadu/LC/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -886,6 +888,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1020-longest-turbulent-subarray](https://github.com/Arnav-Kadu/LC/tree/master/1020-longest-turbulent-subarray) |
 | [1147-longest-chunked-palindrome-decomposition](https://github.com/Arnav-Kadu/LC/tree/master/1147-longest-chunked-palindrome-decomposition) |
 | [1170-shortest-common-supersequence](https://github.com/Arnav-Kadu/LC/tree/master/1170-shortest-common-supersequence) |
+| [1301-number-of-paths-with-max-score](https://github.com/Arnav-Kadu/LC/tree/master/1301-number-of-paths-with-max-score) |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/Arnav-Kadu/LC/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
 | [1340-jump-game-v](https://github.com/Arnav-Kadu/LC/tree/master/1340-jump-game-v) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Arnav-Kadu/LC/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
