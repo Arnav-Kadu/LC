@@ -24,9 +24,7 @@ public:
         }
         for(int i=0;i<n;i++){
             if(vis[i]==0) q.push(i);
-            else cout<<i<<" ";
         }
-        cout<<endl;
         if(q.empty()){
             return {};
         }
