@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Arnav-Kadu/LC/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [1980-find-unique-binary-string](https://github.com/Arnav-Kadu/LC/tree/master/1980-find-unique-binary-string) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Arnav-Kadu/LC/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [2030-smallest-k-length-subsequence-with-occurrences-of-a-letter](https://github.com/Arnav-Kadu/LC/tree/master/2030-smallest-k-length-subsequence-with-occurrences-of-a-letter) |
 | [2075-decode-the-slanted-ciphertext](https://github.com/Arnav-Kadu/LC/tree/master/2075-decode-the-slanted-ciphertext) |
 | [2107-find-unique-binary-string](https://github.com/Arnav-Kadu/LC/tree/master/2107-find-unique-binary-string) |
 | [2115-number-of-unique-good-subsequences](https://github.com/Arnav-Kadu/LC/tree/master/2115-number-of-unique-good-subsequences) |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0931-maximum-frequency-stack](https://github.com/Arnav-Kadu/LC/tree/master/0931-maximum-frequency-stack) |
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/Arnav-Kadu/LC/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Arnav-Kadu/LC/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [2030-smallest-k-length-subsequence-with-occurrences-of-a-letter](https://github.com/Arnav-Kadu/LC/tree/master/2030-smallest-k-length-subsequence-with-occurrences-of-a-letter) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Arnav-Kadu/LC/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2211-count-collisions-on-a-road](https://github.com/Arnav-Kadu/LC/tree/master/2211-count-collisions-on-a-road) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/Arnav-Kadu/LC/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
@@ -107,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1833-maximum-ice-cream-bars](https://github.com/Arnav-Kadu/LC/tree/master/1833-maximum-ice-cream-bars) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Arnav-Kadu/LC/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/Arnav-Kadu/LC/tree/master/1877-minimize-maximum-pair-sum-in-array) |
+| [2030-smallest-k-length-subsequence-with-occurrences-of-a-letter](https://github.com/Arnav-Kadu/LC/tree/master/2030-smallest-k-length-subsequence-with-occurrences-of-a-letter) |
 | [2126-destroying-asteroids](https://github.com/Arnav-Kadu/LC/tree/master/2126-destroying-asteroids) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Arnav-Kadu/LC/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/Arnav-Kadu/LC/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
@@ -1070,6 +1073,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0085-maximal-rectangle](https://github.com/Arnav-Kadu/LC/tree/master/0085-maximal-rectangle) |
+| [2030-smallest-k-length-subsequence-with-occurrences-of-a-letter](https://github.com/Arnav-Kadu/LC/tree/master/2030-smallest-k-length-subsequence-with-occurrences-of-a-letter) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Arnav-Kadu/LC/tree/master/3001-apply-operations-to-maximize-score) |
 ## Combinatorics
 |  |
