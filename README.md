@@ -268,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0952-largest-component-size-by-common-factor](https://github.com/Arnav-Kadu/LC/tree/master/0952-largest-component-size-by-common-factor) |
 | [0990-satisfiability-of-equality-equations](https://github.com/Arnav-Kadu/LC/tree/master/0990-satisfiability-of-equality-equations) |
 | [1020-longest-turbulent-subarray](https://github.com/Arnav-Kadu/LC/tree/master/1020-longest-turbulent-subarray) |
+| [1140-stone-game-ii](https://github.com/Arnav-Kadu/LC/tree/master/1140-stone-game-ii) |
 | [1200-minimum-absolute-difference](https://github.com/Arnav-Kadu/LC/tree/master/1200-minimum-absolute-difference) |
 | [1202-smallest-string-with-swaps](https://github.com/Arnav-Kadu/LC/tree/master/1202-smallest-string-with-swaps) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Arnav-Kadu/LC/tree/master/1227-number-of-equivalent-domino-pairs) |
@@ -603,6 +604,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [1140-stone-game-ii](https://github.com/Arnav-Kadu/LC/tree/master/1140-stone-game-ii) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Arnav-Kadu/LC/tree/master/1477-product-of-the-last-k-numbers) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Arnav-Kadu/LC/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/Arnav-Kadu/LC/tree/master/1674-minimum-moves-to-make-array-complementary) |
@@ -796,6 +798,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0867-new-21-game](https://github.com/Arnav-Kadu/LC/tree/master/0867-new-21-game) |
 | [0900-reordered-power-of-2](https://github.com/Arnav-Kadu/LC/tree/master/0900-reordered-power-of-2) |
 | [0952-largest-component-size-by-common-factor](https://github.com/Arnav-Kadu/LC/tree/master/0952-largest-component-size-by-common-factor) |
+| [1140-stone-game-ii](https://github.com/Arnav-Kadu/LC/tree/master/1140-stone-game-ii) |
 | [1390-four-divisors](https://github.com/Arnav-Kadu/LC/tree/master/1390-four-divisors) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Arnav-Kadu/LC/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/Arnav-Kadu/LC/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
@@ -910,6 +913,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0867-new-21-game](https://github.com/Arnav-Kadu/LC/tree/master/0867-new-21-game) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Arnav-Kadu/LC/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1020-longest-turbulent-subarray](https://github.com/Arnav-Kadu/LC/tree/master/1020-longest-turbulent-subarray) |
+| [1140-stone-game-ii](https://github.com/Arnav-Kadu/LC/tree/master/1140-stone-game-ii) |
 | [1147-longest-chunked-palindrome-decomposition](https://github.com/Arnav-Kadu/LC/tree/master/1147-longest-chunked-palindrome-decomposition) |
 | [1170-shortest-common-supersequence](https://github.com/Arnav-Kadu/LC/tree/master/1170-shortest-common-supersequence) |
 | [1301-number-of-paths-with-max-score](https://github.com/Arnav-Kadu/LC/tree/master/1301-number-of-paths-with-max-score) |
@@ -986,6 +990,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0486-predict-the-winner](https://github.com/Arnav-Kadu/LC/tree/master/0486-predict-the-winner) |
 | [0828-chalkboard-xor-game](https://github.com/Arnav-Kadu/LC/tree/master/0828-chalkboard-xor-game) |
+| [1140-stone-game-ii](https://github.com/Arnav-Kadu/LC/tree/master/1140-stone-game-ii) |
 | [3462-vowels-game-in-a-string](https://github.com/Arnav-Kadu/LC/tree/master/3462-vowels-game-in-a-string) |
 ## Two Pointers
 |  |
@@ -1191,4 +1196,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1833-maximum-ice-cream-bars](https://github.com/Arnav-Kadu/LC/tree/master/1833-maximum-ice-cream-bars) |
+## Minimax
+|  |
+| ------- |
+| [1140-stone-game-ii](https://github.com/Arnav-Kadu/LC/tree/master/1140-stone-game-ii) |
+## Zero-Sum Game
+|  |
+| ------- |
+| [1140-stone-game-ii](https://github.com/Arnav-Kadu/LC/tree/master/1140-stone-game-ii) |
 <!---LeetCode Topics End-->
