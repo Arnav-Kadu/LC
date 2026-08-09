@@ -2,47 +2,41 @@ class Solution {
     int n;
 
 private:
-    int solve(int index, vector<int>& piles, vector<vector<vector<int>>>& dp, int move, int m) {
-        if(index >= n){
+    int solve(int index, int m, vector<vector<int>>& dp, vector<int>& piles) {
+        if(index >= n) {
             return 0;
         }
 
-        if(dp[index][move][m] != -1){
-            return dp[index][move][m];
+        if(dp[index][m] != -1) {
+            return dp[index][m];
         }
 
-        int mx;
+        int mx = INT_MIN;
+        int sum = 0;
 
-        if(move){
-            mx = INT_MIN;
-            int sum = 0;
+        for(int i=1;i<=2*m && index+i<=n;i++) {
+            sum += piles[index+i-1];
 
-            for(int i=1;i<=2*m && index+i<=n;i++){
-                sum += piles[index+i-1];
-
-                mx = max(mx, sum + solve(index+i,piles,dp,0,max(m,i)));
-            }
-        }
-        else{
-            mx = INT_MAX;
-
-            for(int i=1;i<=2*m && index+i<=n;i++){
-                mx = min(mx, solve(index+i,piles,dp,1,max(m,i)));
-            }
+            mx = max(mx, sum - solve(index+i,max(m,i),dp,piles));
         }
 
-        return dp[index][move][m] = mx;
+        return dp[index][m] = mx;
     }
 
 public:
     int stoneGameII(vector<int>& piles) {
         n = piles.size();
 
-        vector<vector<vector<int>>> dp(
-            n,
-            vector<vector<int>>(2,vector<int>(n+1,-1))
-        );
+        vector<vector<int>> dp(n,vector<int>(n+1,-1));
 
-        return solve(0,piles,dp,1,1);
+        int total = 0;
+
+        for(auto i:piles) {
+            total += i;
+        }
+
+        int diff = solve(0,1,dp,piles);
+
+        return (total + diff) / 2;
     }
 };
