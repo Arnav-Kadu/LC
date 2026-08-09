@@ -247,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0085-maximal-rectangle](https://github.com/Arnav-Kadu/LC/tree/master/0085-maximal-rectangle) |
 | [0135-candy](https://github.com/Arnav-Kadu/LC/tree/master/0135-candy) |
 | [0198-house-robber](https://github.com/Arnav-Kadu/LC/tree/master/0198-house-robber) |
+| [0221-maximal-square](https://github.com/Arnav-Kadu/LC/tree/master/0221-maximal-square) |
 | [0368-largest-divisible-subset](https://github.com/Arnav-Kadu/LC/tree/master/0368-largest-divisible-subset) |
 | [0396-rotate-function](https://github.com/Arnav-Kadu/LC/tree/master/0396-rotate-function) |
 | [0403-frog-jump](https://github.com/Arnav-Kadu/LC/tree/master/0403-frog-jump) |
@@ -555,6 +556,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/Arnav-Kadu/LC/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/Arnav-Kadu/LC/tree/master/0073-set-matrix-zeroes) |
 | [0085-maximal-rectangle](https://github.com/Arnav-Kadu/LC/tree/master/0085-maximal-rectangle) |
+| [0221-maximal-square](https://github.com/Arnav-Kadu/LC/tree/master/0221-maximal-square) |
 | [0407-trapping-rain-water-ii](https://github.com/Arnav-Kadu/LC/tree/master/0407-trapping-rain-water-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Arnav-Kadu/LC/tree/master/0417-pacific-atlantic-water-flow) |
 | [0794-swim-in-rising-water](https://github.com/Arnav-Kadu/LC/tree/master/0794-swim-in-rising-water) |
@@ -901,6 +903,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/Arnav-Kadu/LC/tree/master/0070-climbing-stairs) |
 | [0085-maximal-rectangle](https://github.com/Arnav-Kadu/LC/tree/master/0085-maximal-rectangle) |
 | [0198-house-robber](https://github.com/Arnav-Kadu/LC/tree/master/0198-house-robber) |
+| [0221-maximal-square](https://github.com/Arnav-Kadu/LC/tree/master/0221-maximal-square) |
 | [0368-largest-divisible-subset](https://github.com/Arnav-Kadu/LC/tree/master/0368-largest-divisible-subset) |
 | [0396-rotate-function](https://github.com/Arnav-Kadu/LC/tree/master/0396-rotate-function) |
 | [0403-frog-jump](https://github.com/Arnav-Kadu/LC/tree/master/0403-frog-jump) |
