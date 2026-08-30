@@ -8,17 +8,8 @@ public:
         if(n==1){
             return 1;
         }
-        int mx=*max_element(nums.begin(),nums.end());
-        int mn=*min_element(nums.begin(),nums.end());
-        int mx_index=-1,mn_index=-1;
-        for(int i=0;i<n;i++){
-            if(mx==nums[i]){
-                mx_index=i;
-            }
-            if(mn==nums[i]){
-                mn_index=i;
-            }
-        }
+        int mx_index=max_element(nums.begin(),nums.end())-nums.begin();
+        int mn_index=min_element(nums.begin(),nums.end())-nums.begin();
         int closest_to_mn=min(mn_index+1,n-mn_index);
         int closest_to_mx=min(mx_index+1,n-mx_index);
         int dist_between_mn_mx=abs(mx_index-mn_index);
