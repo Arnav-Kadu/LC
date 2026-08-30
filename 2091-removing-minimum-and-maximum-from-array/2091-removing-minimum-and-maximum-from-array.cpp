@@ -21,10 +21,7 @@ public:
         }
         int closest_to_mn=min(mn_index+1,n-mn_index);
         int closest_to_mx=min(mx_index+1,n-mx_index);
-
         int dist_between_mn_mx=abs(mx_index-mn_index);
-
-        cout<<"closest to mn "<< closest_to_mn<<" "<<"closest to mx "<< closest_to_mx<<endl;;
         int cost;
         if(closest_to_mn>closest_to_mx){
             cost=closest_to_mx;
