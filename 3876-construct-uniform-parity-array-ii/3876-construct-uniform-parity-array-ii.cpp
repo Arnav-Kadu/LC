@@ -9,9 +9,11 @@ public:
                 mn = min(mn, nums[i]);
             }
         }
-
+        if(mn==INT_MAX){
+            return true;
+        }
         for (int i = 0; i < n; i++) {
-            if (nums[i] % 2 == 0 && mn != INT_MAX && nums[i] < mn) {
+            if (nums[i] % 2 == 0 && nums[i] < mn) {
                 return false;
             }
         }
