@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0038-count-and-say](https://github.com/Arnav-Kadu/LC/tree/master/0038-count-and-say) |
 | [0067-add-binary](https://github.com/Arnav-Kadu/LC/tree/master/0067-add-binary) |
+| [0115-distinct-subsequences](https://github.com/Arnav-Kadu/LC/tree/master/0115-distinct-subsequences) |
 | [0434-number-of-segments-in-a-string](https://github.com/Arnav-Kadu/LC/tree/master/0434-number-of-segments-in-a-string) |
 | [0696-count-binary-substrings](https://github.com/Arnav-Kadu/LC/tree/master/0696-count-binary-substrings) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/Arnav-Kadu/LC/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
@@ -917,6 +918,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0070-climbing-stairs](https://github.com/Arnav-Kadu/LC/tree/master/0070-climbing-stairs) |
 | [0085-maximal-rectangle](https://github.com/Arnav-Kadu/LC/tree/master/0085-maximal-rectangle) |
+| [0115-distinct-subsequences](https://github.com/Arnav-Kadu/LC/tree/master/0115-distinct-subsequences) |
 | [0198-house-robber](https://github.com/Arnav-Kadu/LC/tree/master/0198-house-robber) |
 | [0221-maximal-square](https://github.com/Arnav-Kadu/LC/tree/master/0221-maximal-square) |
 | [0368-largest-divisible-subset](https://github.com/Arnav-Kadu/LC/tree/master/0368-largest-divisible-subset) |
