@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0761-special-binary-string](https://github.com/Arnav-Kadu/LC/tree/master/0761-special-binary-string) |
 | [0768-partition-labels](https://github.com/Arnav-Kadu/LC/tree/master/0768-partition-labels) |
 | [0839-similar-string-groups](https://github.com/Arnav-Kadu/LC/tree/master/0839-similar-string-groups) |
+| [0940-distinct-subsequences-ii](https://github.com/Arnav-Kadu/LC/tree/master/0940-distinct-subsequences-ii) |
 | [0990-satisfiability-of-equality-equations](https://github.com/Arnav-Kadu/LC/tree/master/0990-satisfiability-of-equality-equations) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Arnav-Kadu/LC/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1147-longest-chunked-palindrome-decomposition](https://github.com/Arnav-Kadu/LC/tree/master/1147-longest-chunked-palindrome-decomposition) |
@@ -932,6 +933,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0806-domino-and-tromino-tiling](https://github.com/Arnav-Kadu/LC/tree/master/0806-domino-and-tromino-tiling) |
 | [0867-new-21-game](https://github.com/Arnav-Kadu/LC/tree/master/0867-new-21-game) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Arnav-Kadu/LC/tree/master/0905-length-of-longest-fibonacci-subsequence) |
+| [0940-distinct-subsequences-ii](https://github.com/Arnav-Kadu/LC/tree/master/0940-distinct-subsequences-ii) |
 | [1020-longest-turbulent-subarray](https://github.com/Arnav-Kadu/LC/tree/master/1020-longest-turbulent-subarray) |
 | [1140-stone-game-ii](https://github.com/Arnav-Kadu/LC/tree/master/1140-stone-game-ii) |
 | [1147-longest-chunked-palindrome-decomposition](https://github.com/Arnav-Kadu/LC/tree/master/1147-longest-chunked-palindrome-decomposition) |
