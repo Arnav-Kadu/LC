@@ -418,6 +418,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/Arnav-Kadu/LC/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/Arnav-Kadu/LC/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/Arnav-Kadu/LC/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
+| [3524-find-x-value-of-array-i](https://github.com/Arnav-Kadu/LC/tree/master/3524-find-x-value-of-array-i) |
 | [3548-equal-sum-grid-partition-ii](https://github.com/Arnav-Kadu/LC/tree/master/3548-equal-sum-grid-partition-ii) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Arnav-Kadu/LC/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Arnav-Kadu/LC/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
@@ -851,6 +852,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Arnav-Kadu/LC/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3462-vowels-game-in-a-string](https://github.com/Arnav-Kadu/LC/tree/master/3462-vowels-game-in-a-string) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/Arnav-Kadu/LC/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
+| [3524-find-x-value-of-array-i](https://github.com/Arnav-Kadu/LC/tree/master/3524-find-x-value-of-array-i) |
 | [3548-find-the-count-of-good-integers](https://github.com/Arnav-Kadu/LC/tree/master/3548-find-the-count-of-good-integers) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/Arnav-Kadu/LC/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Arnav-Kadu/LC/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
@@ -972,6 +974,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3423-maximum-sum-of-subsequence-with-non-adjacent-elements](https://github.com/Arnav-Kadu/LC/tree/master/3423-maximum-sum-of-subsequence-with-non-adjacent-elements) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/Arnav-Kadu/LC/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3472-longest-palindromic-subsequence-after-at-most-k-operations](https://github.com/Arnav-Kadu/LC/tree/master/3472-longest-palindromic-subsequence-after-at-most-k-operations) |
+| [3524-find-x-value-of-array-i](https://github.com/Arnav-Kadu/LC/tree/master/3524-find-x-value-of-array-i) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Arnav-Kadu/LC/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Arnav-Kadu/LC/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/Arnav-Kadu/LC/tree/master/3630-total-characters-in-string-after-transformations-ii) |
