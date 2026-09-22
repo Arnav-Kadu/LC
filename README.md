@@ -419,6 +419,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/Arnav-Kadu/LC/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/Arnav-Kadu/LC/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3524-find-x-value-of-array-i](https://github.com/Arnav-Kadu/LC/tree/master/3524-find-x-value-of-array-i) |
+| [3525-find-x-value-of-array-ii](https://github.com/Arnav-Kadu/LC/tree/master/3525-find-x-value-of-array-ii) |
 | [3548-equal-sum-grid-partition-ii](https://github.com/Arnav-Kadu/LC/tree/master/3548-equal-sum-grid-partition-ii) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Arnav-Kadu/LC/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Arnav-Kadu/LC/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
@@ -853,6 +854,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3462-vowels-game-in-a-string](https://github.com/Arnav-Kadu/LC/tree/master/3462-vowels-game-in-a-string) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/Arnav-Kadu/LC/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3524-find-x-value-of-array-i](https://github.com/Arnav-Kadu/LC/tree/master/3524-find-x-value-of-array-i) |
+| [3525-find-x-value-of-array-ii](https://github.com/Arnav-Kadu/LC/tree/master/3525-find-x-value-of-array-ii) |
 | [3548-find-the-count-of-good-integers](https://github.com/Arnav-Kadu/LC/tree/master/3548-find-the-count-of-good-integers) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/Arnav-Kadu/LC/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Arnav-Kadu/LC/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
@@ -1056,6 +1058,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2213-longest-substring-of-one-repeating-character](https://github.com/Arnav-Kadu/LC/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [3423-maximum-sum-of-subsequence-with-non-adjacent-elements](https://github.com/Arnav-Kadu/LC/tree/master/3423-maximum-sum-of-subsequence-with-non-adjacent-elements) |
 | [3454-separate-squares-ii](https://github.com/Arnav-Kadu/LC/tree/master/3454-separate-squares-ii) |
+| [3525-find-x-value-of-array-ii](https://github.com/Arnav-Kadu/LC/tree/master/3525-find-x-value-of-array-ii) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/Arnav-Kadu/LC/tree/master/3691-maximum-total-subarray-value-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/Arnav-Kadu/LC/tree/master/3719-longest-balanced-subarray-i) |
 | [3791-fruits-into-baskets-iii](https://github.com/Arnav-Kadu/LC/tree/master/3791-fruits-into-baskets-iii) |
