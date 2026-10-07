@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0038-count-and-say](https://github.com/Arnav-Kadu/LC/tree/master/0038-count-and-say) |
 | [0067-add-binary](https://github.com/Arnav-Kadu/LC/tree/master/0067-add-binary) |
 | [0115-distinct-subsequences](https://github.com/Arnav-Kadu/LC/tree/master/0115-distinct-subsequences) |
+| [0301-remove-invalid-parentheses](https://github.com/Arnav-Kadu/LC/tree/master/0301-remove-invalid-parentheses) |
 | [0434-number-of-segments-in-a-string](https://github.com/Arnav-Kadu/LC/tree/master/0434-number-of-segments-in-a-string) |
 | [0696-count-binary-substrings](https://github.com/Arnav-Kadu/LC/tree/master/0696-count-binary-substrings) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/Arnav-Kadu/LC/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
@@ -492,6 +493,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0301-remove-invalid-parentheses](https://github.com/Arnav-Kadu/LC/tree/master/0301-remove-invalid-parentheses) |
 | [0407-trapping-rain-water-ii](https://github.com/Arnav-Kadu/LC/tree/master/0407-trapping-rain-water-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Arnav-Kadu/LC/tree/master/0417-pacific-atlantic-water-flow) |
 | [0547-number-of-provinces](https://github.com/Arnav-Kadu/LC/tree/master/0547-number-of-provinces) |
@@ -876,6 +878,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0301-remove-invalid-parentheses](https://github.com/Arnav-Kadu/LC/tree/master/0301-remove-invalid-parentheses) |
 | [0401-binary-watch](https://github.com/Arnav-Kadu/LC/tree/master/0401-binary-watch) |
 | [1160-letter-tile-possibilities](https://github.com/Arnav-Kadu/LC/tree/master/1160-letter-tile-possibilities) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Arnav-Kadu/LC/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
