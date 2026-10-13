@@ -148,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/Arnav-Kadu/LC/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Arnav-Kadu/LC/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/Arnav-Kadu/LC/tree/master/3691-maximum-total-subarray-value-ii) |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/Arnav-Kadu/LC/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/Arnav-Kadu/LC/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 ## Hash Table
 |  |
@@ -450,6 +451,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/Arnav-Kadu/LC/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/Arnav-Kadu/LC/tree/master/3691-maximum-total-subarray-value-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/Arnav-Kadu/LC/tree/master/3719-longest-balanced-subarray-i) |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/Arnav-Kadu/LC/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/Arnav-Kadu/LC/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/Arnav-Kadu/LC/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/Arnav-Kadu/LC/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
@@ -771,6 +773,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3634-minimum-removals-to-balance-array](https://github.com/Arnav-Kadu/LC/tree/master/3634-minimum-removals-to-balance-array) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/Arnav-Kadu/LC/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/Arnav-Kadu/LC/tree/master/3661-maximum-walls-destroyed-by-robots) |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/Arnav-Kadu/LC/tree/master/3727-maximum-alternating-sum-of-squares) |
 ## Simulation
 |  |
 | ------- |
