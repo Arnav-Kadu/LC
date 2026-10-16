@@ -1,22 +1,55 @@
+#define MOD 1000000007
+class BIT {
+public:
+    BIT(int n) : n{n}, v1(n + 1), v2(n + 1) {}
+
+    void update(int l, int r, int d = 1) {
+        update(v1, l, d);
+        update(v1, r + 1, -d);
+        update(v2, l, (l - 1) * d);
+        update(v2, r + 1, -r * d);
+    }
+
+    long long query(int x) {
+        return query(v1, x) * x - query(v2, x);
+    }
+
+    long long query(int l, int r) {
+        return query(r) - query(l - 1);
+    }
+
+private:
+    int n;
+    vector<long long> v1, v2;
+
+    void update(vector<long long>& v, int x, int d) {
+        for (++x; x <= n; x += x & -x)
+            v[x] += d;
+    }
+
+    long long query(vector<long long>& v, int x) {
+        long long ret = 0;
+        for (++x; x > 0; x -= x & -x)
+            ret += v[x];
+        return ret;
+    }
+};
+
 class Solution {
 public:
     int sumCounts(vector<int>& nums) {
-        const long long MOD = 1e9 + 7;
         int n = nums.size();
-        vector<long long> cnt(n + 1), tot(n + 1);  
-        unordered_map<int, int> last;
-        long long ans = 0;
-        for (int r = 0; r < n; r++) {
-            int p = last.count(nums[r]) ? last[nums[r]] : -1;
-            long long c = 0, s = 0;
-            for (int i = n - p - 1; i > 0; i -= i & -i)  
-                c += cnt[i], s += tot[i];
-            long long gain = (long long)(r - p) * (r - p) - 2 * (s - p * c);  
-            ans = (ans + (n - r) * gain) % MOD;
-            for (int i = n - p; i <= n; i += i & -i)  
-                cnt[i]++, tot[i] += p;
-            last[nums[r]] = r;
+        BIT bit(n);
+        long long ret = 0, v2 = 0;
+        unordered_map<int, int> idx; 
+        for (int j = 0; j < n; ++j) {
+            
+            int k = idx.count(nums[j]) ? idx[nums[j]] : -1;
+            v2 = (v2 + 2 * bit.query(k + 1, j - 1) + j - k) % MOD;
+            ret = (ret + v2) % MOD;
+            bit.update(k + 1, j);
+            idx[nums[j]] = j;
         }
-        return ans;
+        return ret;
     }
 };
