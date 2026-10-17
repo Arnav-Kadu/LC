@@ -216,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/Arnav-Kadu/LC/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3548-find-the-count-of-good-integers](https://github.com/Arnav-Kadu/LC/tree/master/3548-find-the-count-of-good-integers) |
 | [3548-equal-sum-grid-partition-ii](https://github.com/Arnav-Kadu/LC/tree/master/3548-equal-sum-grid-partition-ii) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/Arnav-Kadu/LC/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Arnav-Kadu/LC/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Arnav-Kadu/LC/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/Arnav-Kadu/LC/tree/master/3630-total-characters-in-string-after-transformations-ii) |
@@ -430,6 +431,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3524-find-x-value-of-array-i](https://github.com/Arnav-Kadu/LC/tree/master/3524-find-x-value-of-array-i) |
 | [3525-find-x-value-of-array-ii](https://github.com/Arnav-Kadu/LC/tree/master/3525-find-x-value-of-array-ii) |
 | [3548-equal-sum-grid-partition-ii](https://github.com/Arnav-Kadu/LC/tree/master/3548-equal-sum-grid-partition-ii) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/Arnav-Kadu/LC/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Arnav-Kadu/LC/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Arnav-Kadu/LC/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/Arnav-Kadu/LC/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
@@ -768,6 +770,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/Arnav-Kadu/LC/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3430-count-days-without-meetings](https://github.com/Arnav-Kadu/LC/tree/master/3430-count-days-without-meetings) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/Arnav-Kadu/LC/tree/master/3437-maximum-total-damage-with-spell-casting) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/Arnav-Kadu/LC/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Arnav-Kadu/LC/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/Arnav-Kadu/LC/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/Arnav-Kadu/LC/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
