@@ -3,7 +3,7 @@ private:
     vector<int> getDivisors(int n) {
         vector<int> divisors;
 
-        for (int i = 1; i <= sqrt(n); i++) {
+        for (int i = 1; i * i <= n; i++) {
             if (n % i == 0) {
                 divisors.push_back(i);
 
@@ -21,39 +21,55 @@ public:
     int sortableIntegers(vector<int>& nums) {
         int n = nums.size();
         vector<int> div = getDivisors(n);
-        vector<int> sorted = nums;
 
-        sort(sorted.begin(), sorted.end());
+        vector<int> pref(n, 0), nextDesc(n, n);
+
+        for (int i = 0; i + 1 < n; i++) {
+            pref[i + 1] = pref[i] + (nums[i] > nums[i + 1]);
+        }
+
+        for (int i = n - 2; i >= 0; i--) {
+            if (nums[i] > nums[i + 1]) {
+                nextDesc[i] = i;
+            } else {
+                nextDesc[i] = nextDesc[i + 1];
+            }
+        }
 
         int ans = 0;
 
-        for (auto d : div) {
+        for (int d : div) {
             bool check = true;
+            int prevMax = INT_MIN;
 
-            for (int i = 0; i < n && check; i += d) {
-                vector<int> curr(nums.begin() + i, nums.begin() + i + d);
-                sort(curr.begin(), curr.end());
+            for (int l = 0; l < n; l += d) {
+                int r = l + d;
 
-                for (int j = 0; j < d; j++) {
-                    if (curr[j] != sorted[i + j]) {
-                        check = false;
-                        break;
-                    }
-                }
+                int internal = pref[r - 1] - pref[l];
+                int wrap = nums[r - 1] > nums[l];
 
-                int desc = 0;
-
-                for (int j = i; j < i + d; j++) {
-                    int nxt = i + (j - i + 1) % d;
-
-                    if (nums[j] > nums[nxt]) {
-                        desc++;
-                    }
-                }
-
-                if (desc > 1) {
+                if (internal + wrap > 1) {
                     check = false;
+                    break;
                 }
+
+                int mn, mx;
+
+                if (internal == 0) {
+                    mn = nums[l];
+                    mx = nums[r - 1];
+                } else {
+                    int p = nextDesc[l];
+                    mn = nums[p + 1];
+                    mx = nums[p];
+                }
+
+                if (l > 0 && prevMax > mn) {
+                    check = false;
+                    break;
+                }
+
+                prevMax = mx;
             }
 
             if (check) {
