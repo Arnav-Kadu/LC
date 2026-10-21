@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3714-longest-balanced-substring-ii](https://github.com/Arnav-Kadu/LC/tree/master/3714-longest-balanced-substring-ii) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/Arnav-Kadu/LC/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Arnav-Kadu/LC/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
+| [3863-minimum-operations-to-sort-a-string](https://github.com/Arnav-Kadu/LC/tree/master/3863-minimum-operations-to-sort-a-string) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Arnav-Kadu/LC/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Stack
 |  |
