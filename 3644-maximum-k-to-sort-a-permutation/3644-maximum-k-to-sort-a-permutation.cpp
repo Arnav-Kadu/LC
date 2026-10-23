@@ -2,7 +2,6 @@ class Solution {
 public:
     int sortPermutation(vector<int>& nums) {
         int ans = INT_MAX;
-        vector<int> notCorrect;
         int n = nums.size();
 
         if (is_sorted(nums.begin(), nums.end())) {
@@ -11,14 +10,11 @@ public:
 
         for (int i = 0; i < n; i++) {
             if (nums[i] != i) {
-                notCorrect.push_back(i);
+                ans&=nums[i];
             }
         }
 
-        for (int i = 0; i < notCorrect.size(); i++) {
-            ans &= notCorrect[i];
-        }
-
-        return ans;
+    
+        return ans==INT_MAX?0:ans;
     }
 };
