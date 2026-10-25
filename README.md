@@ -289,6 +289,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1200-minimum-absolute-difference](https://github.com/Arnav-Kadu/LC/tree/master/1200-minimum-absolute-difference) |
 | [1202-smallest-string-with-swaps](https://github.com/Arnav-Kadu/LC/tree/master/1202-smallest-string-with-swaps) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Arnav-Kadu/LC/tree/master/1227-number-of-equivalent-domino-pairs) |
+| [1254-number-of-closed-islands](https://github.com/Arnav-Kadu/LC/tree/master/1254-number-of-closed-islands) |
 | [1288-remove-covered-intervals](https://github.com/Arnav-Kadu/LC/tree/master/1288-remove-covered-intervals) |
 | [1293-three-consecutive-odds](https://github.com/Arnav-Kadu/LC/tree/master/1293-three-consecutive-odds) |
 | [1301-number-of-paths-with-max-score](https://github.com/Arnav-Kadu/LC/tree/master/1301-number-of-paths-with-max-score) |
@@ -522,6 +523,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0945-snakes-and-ladders](https://github.com/Arnav-Kadu/LC/tree/master/0945-snakes-and-ladders) |
 | [1202-smallest-string-with-swaps](https://github.com/Arnav-Kadu/LC/tree/master/1202-smallest-string-with-swaps) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Arnav-Kadu/LC/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [1254-number-of-closed-islands](https://github.com/Arnav-Kadu/LC/tree/master/1254-number-of-closed-islands) |
 | [1306-jump-game-iii](https://github.com/Arnav-Kadu/LC/tree/master/1306-jump-game-iii) |
 | [1345-jump-game-iv](https://github.com/Arnav-Kadu/LC/tree/master/1345-jump-game-iv) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Arnav-Kadu/LC/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
@@ -597,6 +599,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0794-swim-in-rising-water](https://github.com/Arnav-Kadu/LC/tree/master/0794-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/Arnav-Kadu/LC/tree/master/0854-making-a-large-island) |
 | [0945-snakes-and-ladders](https://github.com/Arnav-Kadu/LC/tree/master/0945-snakes-and-ladders) |
+| [1254-number-of-closed-islands](https://github.com/Arnav-Kadu/LC/tree/master/1254-number-of-closed-islands) |
 | [1301-number-of-paths-with-max-score](https://github.com/Arnav-Kadu/LC/tree/master/1301-number-of-paths-with-max-score) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Arnav-Kadu/LC/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1396-count-servers-that-communicate](https://github.com/Arnav-Kadu/LC/tree/master/1396-count-servers-that-communicate) |
@@ -684,6 +687,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Arnav-Kadu/LC/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1202-smallest-string-with-swaps](https://github.com/Arnav-Kadu/LC/tree/master/1202-smallest-string-with-swaps) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Arnav-Kadu/LC/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [1254-number-of-closed-islands](https://github.com/Arnav-Kadu/LC/tree/master/1254-number-of-closed-islands) |
 | [1306-jump-game-iii](https://github.com/Arnav-Kadu/LC/tree/master/1306-jump-game-iii) |
 | [1382-balance-a-binary-search-tree](https://github.com/Arnav-Kadu/LC/tree/master/1382-balance-a-binary-search-tree) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Arnav-Kadu/LC/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
@@ -1254,6 +1258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0952-largest-component-size-by-common-factor](https://github.com/Arnav-Kadu/LC/tree/master/0952-largest-component-size-by-common-factor) |
 | [0990-satisfiability-of-equality-equations](https://github.com/Arnav-Kadu/LC/tree/master/0990-satisfiability-of-equality-equations) |
 | [1202-smallest-string-with-swaps](https://github.com/Arnav-Kadu/LC/tree/master/1202-smallest-string-with-swaps) |
+| [1254-number-of-closed-islands](https://github.com/Arnav-Kadu/LC/tree/master/1254-number-of-closed-islands) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Arnav-Kadu/LC/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1579-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/Arnav-Kadu/LC/tree/master/1579-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 | [1631-path-with-minimum-effort](https://github.com/Arnav-Kadu/LC/tree/master/1631-path-with-minimum-effort) |
