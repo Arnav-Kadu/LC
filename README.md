@@ -440,6 +440,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Arnav-Kadu/LC/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/Arnav-Kadu/LC/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/Arnav-Kadu/LC/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/Arnav-Kadu/LC/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/Arnav-Kadu/LC/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/Arnav-Kadu/LC/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Arnav-Kadu/LC/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
@@ -542,6 +543,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Arnav-Kadu/LC/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3271-count-the-number-of-houses-at-a-certain-distance-i](https://github.com/Arnav-Kadu/LC/tree/master/3271-count-the-number-of-houses-at-a-certain-distance-i) |
 | [3310-remove-methods-from-project](https://github.com/Arnav-Kadu/LC/tree/master/3310-remove-methods-from-project) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/Arnav-Kadu/LC/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Graph
 |  |
 | ------- |
@@ -627,6 +629,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/Arnav-Kadu/LC/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
 | [3548-equal-sum-grid-partition-ii](https://github.com/Arnav-Kadu/LC/tree/master/3548-equal-sum-grid-partition-ii) |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Arnav-Kadu/LC/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/Arnav-Kadu/LC/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Arnav-Kadu/LC/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Arnav-Kadu/LC/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3643-flip-square-submatrix-vertically](https://github.com/Arnav-Kadu/LC/tree/master/3643-flip-square-submatrix-vertically) |
@@ -708,6 +711,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3310-remove-methods-from-project](https://github.com/Arnav-Kadu/LC/tree/master/3310-remove-methods-from-project) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/Arnav-Kadu/LC/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Arnav-Kadu/LC/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/Arnav-Kadu/LC/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3675-maximize-sum-of-weights-after-edge-removals](https://github.com/Arnav-Kadu/LC/tree/master/3675-maximize-sum-of-weights-after-edge-removals) |
 ## Union Find
 |  |
@@ -1268,6 +1272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Arnav-Kadu/LC/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Arnav-Kadu/LC/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/Arnav-Kadu/LC/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/Arnav-Kadu/LC/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Minimum Spanning Tree
 |  |
 | ------- |
