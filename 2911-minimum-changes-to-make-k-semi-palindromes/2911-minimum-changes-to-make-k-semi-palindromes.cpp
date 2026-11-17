@@ -1,38 +1,71 @@
 class Solution {
 public:
+    int dp[201][101];
+    int cost[201][201];
+
+    int Solve(string& s, int i, int k) {
+        int n = s.size();
+
+        if (i == n) {
+            if (k == 0)
+                return 0;
+            return 1e9;
+        }
+
+        if (k == 0)
+            return 1e9;
+
+        if (dp[i][k] != -1)
+            return dp[i][k];
+
+        int minAns = 1e9;
+
+        for (int j = i + 1; j < n; j++) {
+            if (n - j - 1 < 2 * (k - 1))
+                break;
+
+            minAns = min(minAns, cost[i][j] + Solve(s, j + 1, k - 1));
+        }
+
+        return dp[i][k] = minAns;
+    }
+
     int minimumChanges(string s, int k) {
         int n = s.size();
-        const int INF = 1e9;
-        vector<vector<int>> cost(n, vector<int>(n, INF));
-        for (int i = 0; i < n; ++i) {
-            for (int j = i + 1; j < n; ++j) {
-                int L = j - i + 1;
-                int best = INF;
-                for (int d = 1; d < L; ++d) {
-                    if (L % d != 0) continue;
-                    int cur = 0;
-                    int m = L / d;
-                    for (int r = 0; r < d; ++r) {
-                        for (int t = 0; t < m / 2; ++t) {
-                            if (s[i + r + t * d] != s[i + r + (m - 1 - t) * d])
-                                ++cur;
+
+        memset(dp, -1, sizeof(dp));
+
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                int len = j - i + 1;
+                int minAns = 1e9;
+
+                for (int d = 1; d < len; d++) {
+                    if (len % d != 0)
+                        continue;
+
+                    int ans = 0;
+
+                    for (int x = 0; x < d; x++) {
+                        int l = i + x;
+                        int r = i + x + (len / d - 1) * d;
+
+                        while (l < r) {
+                            if (s[l] != s[r])
+                                ans++;
+
+                            l += d;
+                            r -= d;
                         }
                     }
-                    best = min(best, cur);
+
+                    minAns = min(minAns, ans);
                 }
-                cost[i][j] = best;
+
+                cost[i][j] = minAns;
             }
         }
-        vector<vector<int>> dp(n + 1, vector<int>(k + 1, INF));
-        dp[0][0] = 0;
-        for (int i = 1; i <= n; ++i) {
-            for (int p = 1; p <= k; ++p) {
-                for (int prev = 0; prev <= i - 2; ++prev) {
-                    if (dp[prev][p - 1] != INF && cost[prev][i - 1] != INF)
-                        dp[i][p] = min(dp[i][p], dp[prev][p - 1] + cost[prev][i - 1]);
-                }
-            }
-        }
-        return dp[n][k];
+
+        return Solve(s, 0, k);
     }
 };
