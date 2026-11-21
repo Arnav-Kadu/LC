@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3194-find-words-containing-character](https://github.com/Arnav-Kadu/LC/tree/master/3194-find-words-containing-character) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/Arnav-Kadu/LC/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Arnav-Kadu/LC/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
+| [3331-find-subtree-sizes-after-changes](https://github.com/Arnav-Kadu/LC/tree/master/3331-find-subtree-sizes-after-changes) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Arnav-Kadu/LC/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3354-replace-question-marks-in-string-to-minimize-its-value](https://github.com/Arnav-Kadu/LC/tree/master/3354-replace-question-marks-in-string-to-minimize-its-value) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/Arnav-Kadu/LC/tree/master/3360-minimum-deletions-to-make-string-k-special) |
@@ -208,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/Arnav-Kadu/LC/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/Arnav-Kadu/LC/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3227-find-missing-and-repeated-values](https://github.com/Arnav-Kadu/LC/tree/master/3227-find-missing-and-repeated-values) |
+| [3331-find-subtree-sizes-after-changes](https://github.com/Arnav-Kadu/LC/tree/master/3331-find-subtree-sizes-after-changes) |
 | [3354-replace-question-marks-in-string-to-minimize-its-value](https://github.com/Arnav-Kadu/LC/tree/master/3354-replace-question-marks-in-string-to-minimize-its-value) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/Arnav-Kadu/LC/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/Arnav-Kadu/LC/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
@@ -417,6 +419,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/Arnav-Kadu/LC/tree/master/3314-construct-the-minimum-bitwise-array-i) |
 | [3315-construct-the-minimum-bitwise-array-ii](https://github.com/Arnav-Kadu/LC/tree/master/3315-construct-the-minimum-bitwise-array-ii) |
 | [3331-minimum-operations-to-exceed-threshold-value-i](https://github.com/Arnav-Kadu/LC/tree/master/3331-minimum-operations-to-exceed-threshold-value-i) |
+| [3331-find-subtree-sizes-after-changes](https://github.com/Arnav-Kadu/LC/tree/master/3331-find-subtree-sizes-after-changes) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Arnav-Kadu/LC/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/Arnav-Kadu/LC/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/Arnav-Kadu/LC/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
@@ -716,6 +719,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/Arnav-Kadu/LC/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2793-count-the-number-of-complete-components](https://github.com/Arnav-Kadu/LC/tree/master/2793-count-the-number-of-complete-components) |
 | [3310-remove-methods-from-project](https://github.com/Arnav-Kadu/LC/tree/master/3310-remove-methods-from-project) |
+| [3331-find-subtree-sizes-after-changes](https://github.com/Arnav-Kadu/LC/tree/master/3331-find-subtree-sizes-after-changes) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/Arnav-Kadu/LC/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Arnav-Kadu/LC/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/Arnav-Kadu/LC/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
@@ -942,6 +946,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/Arnav-Kadu/LC/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/Arnav-Kadu/LC/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2652-count-number-of-possible-root-nodes](https://github.com/Arnav-Kadu/LC/tree/master/2652-count-number-of-possible-root-nodes) |
+| [3331-find-subtree-sizes-after-changes](https://github.com/Arnav-Kadu/LC/tree/master/3331-find-subtree-sizes-after-changes) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/Arnav-Kadu/LC/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Arnav-Kadu/LC/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3675-maximize-sum-of-weights-after-edge-removals](https://github.com/Arnav-Kadu/LC/tree/master/3675-maximize-sum-of-weights-after-edge-removals) |
